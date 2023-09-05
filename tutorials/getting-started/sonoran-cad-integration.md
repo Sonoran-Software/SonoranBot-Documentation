@@ -2,7 +2,7 @@
 title: sonoran-cad-integration
 description: 
 published: true
-date: 2023-09-05T06:06:17.204Z
+date: 2023-09-05T06:41:59.860Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:08:17.845Z
