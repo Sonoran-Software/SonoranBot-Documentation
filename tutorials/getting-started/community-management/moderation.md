@@ -1,12 +1,21 @@
+---
+title: moderation
+description: 
+published: true
+date: 2023-09-05T18:37:50.226Z
+tags: 
+editor: markdown
+dateCreated: 2023-08-19T00:08:06.914Z
+---
+
 # Moderation
 
 ## Community Moderation
 
 Using SonoranBot, you have access to several commands that are all logged to a special channel. Keep moderation actions organized and easily control access!
 
-{% hint style="info" %}
-Moderation commands are available to any Discord server linked to a community, including Free CAD/CMS!
-{% endhint %}
+> Moderation commands are available to any Discord server linked to a community, including Free CAD/CMS!
+{.is-info}
 
 ### Getting Started
 
@@ -18,9 +27,9 @@ You must set a logging channel for any of the commands to work. You can do so wi
 
 #### 2. Set Permissions
 
-{% hint style="warning" %}
-The permissions in the below table are also what SonoranBot will need to perform them, otherwise you will get an error message.
-{% endhint %}
+> The permissions in the below table are also what SonoranBot will need to perform them, otherwise you will get an error message.
+{.is-warning}
+
 
 By default, all commands are set to what you expect:
 
