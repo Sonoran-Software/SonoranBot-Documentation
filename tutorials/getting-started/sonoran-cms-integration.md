@@ -1,10 +1,20 @@
+---
+title: sonoran-cms-integration
+description: 
+published: true
+date: 2023-09-05T06:03:18.941Z
+tags: 
+editor: markdown
+dateCreated: 2023-08-19T00:08:23.412Z
+---
+
 # Sonoran CMS Integration
 
 ### Sonoran CMS Integration Guide
 
 Sync your Discord roles with SonoranCMS permissions!
 
-{% embed url="https://www.youtube.com/watch?v=mlH4TlybT_4" %}
+https://www.youtube.com/watch?v=mlH4TlybT_4
 
 ### Getting Started <a href="#getting-started" id="getting-started"></a>
 
@@ -55,8 +65,7 @@ This is only an example! At any time, you can change the dropdowns to select ano
 
 ### Role Syncing <a href="#role-syncing" id="role-syncing"></a>
 
-{% hint style="info" %}
-Unlike the CAD sync mode, users will not use the `/linkme` command - this is handled within the Sonoran Account SSO.
-{% endhint %}
+> Unlike the CAD sync mode, users will not use the `/linkme` command - this is handled within the Sonoran Account SSO.
+{.is-info}
 
 After setting up the above, the command `/syncroles` will set up everyone's permissions.
