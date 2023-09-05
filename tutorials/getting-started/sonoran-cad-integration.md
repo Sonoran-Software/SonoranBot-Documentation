@@ -1,3 +1,13 @@
+---
+title: sonoran-cad-integration
+description: 
+published: true
+date: 2023-09-05T06:06:17.204Z
+tags: 
+editor: markdown
+dateCreated: 2023-08-19T00:08:17.845Z
+---
+
 # Sonoran CAD Integration
 
 ## Manage with Sonoran CMS!
@@ -14,15 +24,13 @@ In addition to automatically adding users when applications are accepted, [Sonor
 
 ### Setup Guide
 
-
-
-{% embed url="https://www.youtube.com/watch?v=VATCtHH7GQw" %}
+https://www.youtube.com/watch?v=VATCtHH7GQw
 
 ### Permissions Synchronization - CAD
 
-{% hint style="warning" %}
-You must have the Manage Server permission on the Discord server in order to set up this process.
-{% endhint %}
+> You must have the Manage Server permission on the Discord server in order to set up this process.
+{.is-warning}
+
 
 The bot provides a brand new menu to assist you with assigning roles to permissions.
 
