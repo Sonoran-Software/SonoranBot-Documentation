@@ -2,7 +2,7 @@
 title: getting-started
 description: 
 published: true
-date: 2023-09-05T06:00:42.724Z
+date: 2023-09-05T18:32:50.088Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:07:55.122Z
@@ -28,7 +28,7 @@ Sonoran Bot supports either CAD or CMS syncing. The below tutorial applies to bo
 
 ![screenshot_11.png](/screenshot_11.png)
 
-    You will then be presented with the results of the setup.
+You will then be presented with the results of the setup.
 
 ![image.png](/image.png)
 
@@ -47,16 +47,6 @@ Fill out the information (using either your CAD or CMS information), and you wil
 
 At this point, you will need to select either CAD or CMS integration. We highly encourage users to make use of the CMS integration as the CMS can integrate with the CAD on its own!
 
-
-
-{% content-ref url="sonoran-cms-integration.md" %}
-[sonoran-cms-integration.md](sonoran-cms-integration.md)
-{% endcontent-ref %}
-
-{% content-ref url="sonoran-cad-integration.md" %}
-[sonoran-cad-integration.md](sonoran-cad-integration.md)
-{% endcontent-ref %}
-
-{% content-ref url="community-management/" %}
-[community-management](community-management/)
-{% endcontent-ref %}
+[CMS Integration](/tutorials/getting-started/sonoran-cms-integration)
+[CAD Integration](/tutorials/getting-started/sonoran-cad-integration)
+[Community Management](/tutorials/getting-started/community-management/getting-started)
