@@ -2,7 +2,7 @@
 title: getting-started
 description: 
 published: true
-date: 2023-09-05T18:32:50.088Z
+date: 2023-09-05T18:40:03.295Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:07:55.122Z
@@ -30,7 +30,7 @@ Sonoran Bot supports either CAD or CMS syncing. The below tutorial applies to bo
 
 You will then be presented with the results of the setup.
 
-![image.png](/image.png)
+![setupconfirm.png](/setupconfirm.png)
 
 > If you set up both CMS and CAD, the Discord bot will automatically use CMS mode. Otherwise, it will use the successfully set up mode.
 {.is-info}
