@@ -2,7 +2,7 @@
 title: sonoran-cad-integration
 description: 
 published: true
-date: 2023-09-05T06:41:59.860Z
+date: 2023-09-05T18:14:59.271Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:08:17.845Z
@@ -30,7 +30,6 @@ https://www.youtube.com/watch?v=VATCtHH7GQw
 
 > You must have the Manage Server permission on the Discord server in order to set up this process.
 {.is-warning}
-
 
 The bot provides a brand new menu to assist you with assigning roles to permissions.
 
@@ -73,10 +72,3 @@ By default, the bot will not remove permissions from users who do not have a mat
 * Discontinue use of permission keys ASAP. The bot "takes over" synchronization and will remove permissions granted by permission keys if they don't have a role that grants it.
   * Same goes for manual permission grants, **unless there is no role granting that permission**.
 
-### ADVANCED: Migration from Legacy SonoranBot
-
-Until the old bot is fully decommissioned, a /migrate command is provided to allow admins to move existing role mappings and account links to the new bot to ensure a smooth transition.
-
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-M4pGN81fb4R6zFhodcu%2Fuploads%2FN84TcsSL2sSSse5YcJzt%2FScreenshot_17.png?alt=media&#x26;token=2509a2e9-9ce2-4e73-aa6e-792ab46daa02" alt=""><figcaption></figcaption></figure>
-
-Clicking yes will initiate the process and you will be prompted when completed. On larger communities, this can take several seconds to complete. **This feature will migrate all existing linked guilds and their role mappings** and only can be used once.
