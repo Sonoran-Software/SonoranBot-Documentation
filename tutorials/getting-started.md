@@ -2,7 +2,7 @@
 title: getting-started
 description: 
 published: true
-date: 2023-09-05T18:40:03.295Z
+date: 2023-09-19T23:32:12.542Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:07:55.122Z
@@ -16,7 +16,7 @@ Sonoran Bot supports either CAD or CMS syncing. The below tutorial applies to bo
 {.is-warning}
 ### 1. Invite the Bot to Your Server
 
-[Invite the bot to your Discord server](https://discord.com/api/oauth2/authorize?client\_id=1060274480930361424\&permissions=9395244032\&scope=bot%20applications.commands). You must have the "Manage Server" permission to add bots; plus any permissions the bot requires to function.
+[Invite the bot to your Discord server](https://sonoranbot.com/invite). You must have the "Manage Server" permission to add bots; plus any permissions the bot requires to function. You will also be joined to our support server (Sonoran Software Systems) automatically.
 
 ### 2. Run the Setup Command
 
