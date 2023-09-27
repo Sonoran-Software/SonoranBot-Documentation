@@ -1,14 +1,12 @@
 ---
-title: sonoran-cms-integration
-description: 
+title: Sonoran CMS Integration
+description: Link Sonoran Bot to Sonoran CMS for role syncing and other handy features!
 published: true
-date: 2023-09-05T06:03:18.941Z
+date: 2023-09-27T19:30:04.554Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:08:23.412Z
 ---
-
-# Sonoran CMS Integration
 
 ### Sonoran CMS Integration Guide
 
