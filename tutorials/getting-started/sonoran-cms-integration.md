@@ -2,13 +2,13 @@
 title: Sonoran CMS Integration
 description: Link Sonoran Bot to Sonoran CMS for role syncing and other handy features!
 published: true
-date: 2023-09-27T19:31:34.200Z
+date: 2023-09-27T19:32:46.548Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:08:23.412Z
 ---
 
-# Sonoran CMS Integration Guide
+# Video Guide
 
 Sync your Discord roles with SonoranCMS permissions!
 
