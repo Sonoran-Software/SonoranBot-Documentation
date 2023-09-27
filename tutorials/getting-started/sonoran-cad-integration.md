@@ -1,16 +1,17 @@
 ---
-title: sonoran-cad-integration
-description: 
+title: Sonoran CAD Integration
+description: Link Sonoran Bot to Sonoran CAD to sync permissions to Discord roles and other handy features!
 published: true
-date: 2023-09-05T18:14:59.271Z
+date: 2023-09-27T19:41:57.921Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:08:17.845Z
 ---
 
-# Sonoran CAD Integration
+# Manage with Sonoran CMS!
+> Use Sonoran CMS to link your discord roles to CMS and CAD permissions instead if you plan to/already use Sonoran CMS. Simply [link Sonoran Bot to Sonoran CMS](/tutorials/getting-started/sonoran-cms-integration) and setup [Sonoran CMS -> Sonoran CAD permission sync](https://info.sonorancms.com/integration-capabilities/sonoran-cad-sync)
+{.is-info}
 
-## Manage with Sonoran CMS!
 
 In addition to automatically adding users when applications are accepted, [Sonoran CMS](https://info.sonorancms.com/why-choose-sonoran-cms/why-choose-sonoran-cms) can also manage your community's CAD permissions!
 
@@ -20,13 +21,13 @@ In addition to automatically adding users when applications are accepted, [Sonor
 
 <figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-M4pGN81fb4R6zFhodcu%2Fuploads%2Fv9ymIkkSomDZc27026rG%2Fimage.png?alt=media&#x26;token=5f470a38-3187-4394-9f18-5ed3cdf44603" alt=""><figcaption></figcaption></figure>
 
-## Sonoran CAD Integration Guide
+# Sonoran CAD Integration Guide
 
-### Setup Guide
+## Setup Guide
 
 https://www.youtube.com/watch?v=VATCtHH7GQw
 
-### Permissions Synchronization - CAD
+## Permissions Synchronization - CAD
 
 > You must have the Manage Server permission on the Discord server in order to set up this process.
 {.is-warning}
@@ -47,7 +48,7 @@ Successfully entering this information will bring you back to the main role mapp
 
 <figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-M4pGN81fb4R6zFhodcu%2Fuploads%2FXkCTGkMTSZvbgKkk1TBb%2FScreenshot_16.png?alt=media&#x26;token=594526fe-cc43-449f-8c43-d075cdca14dd" alt=""><figcaption></figcaption></figure>
 
-### User Setup
+## User Setup
 
 1. Every user in the Discord will get their [Secret ID from their Settings page](https://info.sonorancad.com/sonoran-cad/api-integration/getting-started/account-secret-id).
 2. Every user in the Discord will then use `/linkme <secretid>` to link their Sonoran CAD account to their current Discord account. This will automatically populate their API ID.
@@ -56,15 +57,15 @@ Successfully entering this information will bring you back to the main role mapp
 
 Now, whenever a role is added or removed, the bot will automatically update the user's permissions to match! If the user ever leaves the server, the bot will immediately remove all permissions from their account, although they will still be in the community.
 
-### Changing your Account Secret ID
+## Changing your Account Secret ID
 
 Sometimes, you may wish to change your secret ID. If you do so from the [Settings page](https://info.sonorancad.com/sonoran-cad/api-integration/getting-started/account-secret-id), you must use the `/changesecret <new key>` command or the bot will remove all your permissions on Sonoran CAD (if the optional security setting below is enabled).
 
-### Optional Security Setting
+## Optional Security Setting
 
 By default, the bot will not remove permissions from users who do not have a matching secret key to their Discord ID. This can be enabled by setting `stripUnmappedUsers` to true with the `s!setting` command.
 
-### Best Practices and FAQ
+## Best Practices and FAQ
 
 * It is advised to not sync potentially dangerous permissions (such as Admin Access permissions) with Discord roles **unless** you trust staff with that role, or it's just you.
 * The community owner is completely ignored during the synchronization process.
