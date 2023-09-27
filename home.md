@@ -2,7 +2,7 @@
 title: Sonoran Bot
 description: Our very own Discord bot to integrate your Discord community with our CAD and CMS software.
 published: true
-date: 2023-09-05T18:22:57.638Z
+date: 2023-09-27T19:25:45.180Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-18T23:41:14.463Z
@@ -16,4 +16,4 @@ Sonoran Bot is a fully featured Discord bot providing integration tools with our
 
 ## Get Started
 
-We've put together some helpful guides for you to get setup with our product quickly and easily. [Get started now!](/tutorials/getting-started/home)
+We've put together some helpful guides for you to get setup with our product quickly and easily. [Get started now!](/tutorials/getting-started)
