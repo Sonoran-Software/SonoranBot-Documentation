@@ -2,23 +2,23 @@
 title: Sonoran CMS Integration
 description: Link Sonoran Bot to Sonoran CMS for role syncing and other handy features!
 published: true
-date: 2023-09-27T19:30:04.554Z
+date: 2023-09-27T19:31:34.200Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:08:23.412Z
 ---
 
-### Sonoran CMS Integration Guide
+# Sonoran CMS Integration Guide
 
 Sync your Discord roles with SonoranCMS permissions!
 
 https://www.youtube.com/watch?v=mlH4TlybT_4
 
-### Getting Started <a href="#getting-started" id="getting-started"></a>
+# Getting Started <a href="#getting-started" id="getting-started"></a>
 
 By default, **only Administrators of the Discord guild can access the commands** below. These can be changed in the Settings menu of the server.
 
-#### 1. Discord SSO Linking <a href="#1.-discord-sso-linking" id="1.-discord-sso-linking"></a>
+## 1. Discord SSO Linking <a href="#1.-discord-sso-linking" id="1.-discord-sso-linking"></a>
 
 Users must link their Discord to their Sonoran account. This will also automatically add their Discord [API ID](https://info.sonorancms.com/developer-api-documentation/api-integration/getting-started/api-id-system).
 
@@ -35,7 +35,7 @@ Once enabled in the CMS, users who do not yet have their Discord account linked 
 
 <figure><img src="https://1004916355-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MdBOa9OFjtdqw9FdXli%2Fuploads%2FvuBlorebVznW98h1ebyK%2FScreen%20Shot%202023-01-08%20at%2012.04.00%20PM.png?alt=media&#x26;token=2a1b84bb-e963-4b18-9b16-a13970ed0603" alt=""><figcaption><p>Sonoran CMS - Link Your Discord Account​</p></figcaption></figure>
 
-#### 2. Role Mapping <a href="#2.-role-mapping" id="2.-role-mapping"></a>
+## 2. Role Mapping <a href="#2.-role-mapping" id="2.-role-mapping"></a>
 
 The command `/rolemap` can now be used.
 
@@ -61,7 +61,7 @@ The "Staff Role" will get the rank "Director" in the CMS.
 
 This is only an example! At any time, you can change the dropdowns to select another Department or Rank.
 
-### Role Syncing <a href="#role-syncing" id="role-syncing"></a>
+# Role Syncing <a href="#role-syncing" id="role-syncing"></a>
 
 > Unlike the CAD sync mode, users will not use the `/linkme` command - this is handled within the Sonoran Account SSO.
 {.is-info}
