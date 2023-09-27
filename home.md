@@ -1,14 +1,12 @@
 ---
-title: Sonoran Bot
+title: 👋 Sonoran Bot
 description: Our very own Discord bot to integrate your Discord community with our CAD and CMS software.
 published: true
-date: 2023-09-27T19:25:45.180Z
+date: 2023-09-27T19:28:36.686Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-18T23:41:14.463Z
 ---
-
-# 👋 Sonoran Bot
 
 ## What is Sonoran Bot?
 
