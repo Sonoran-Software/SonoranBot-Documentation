@@ -2,7 +2,7 @@
 title: 🛠 Getting Started
 description: Start using Sonoran Bot to link Sonoran products to your discord and perform common moderation actions...
 published: true
-date: 2023-09-27T19:28:03.877Z
+date: 2023-09-27T19:42:56.873Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:07:55.122Z
@@ -47,4 +47,4 @@ At this point, you will need to select either CAD or CMS integration. We highly 
 
 [CMS Integration](/tutorials/getting-started/sonoran-cms-integration)
 [CAD Integration](/tutorials/getting-started/sonoran-cad-integration)
-[Community Management](/tutorials/getting-started/community-management/getting-started)
+[Community Management](/tutorials/getting-started/community-management)
