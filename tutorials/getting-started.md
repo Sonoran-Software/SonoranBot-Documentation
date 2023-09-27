@@ -1,14 +1,12 @@
 ---
-title: getting-started
-description: 
+title: 🛠 Getting Started
+description: Start using Sonoran Bot to link Sonoran products to your discord and perform common moderation actions...
 published: true
-date: 2023-09-27T19:25:07.168Z
+date: 2023-09-27T19:28:03.877Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:07:55.122Z
 ---
-
-# 🛠 Getting Started
 
 Sonoran Bot supports either CAD or CMS syncing. The below tutorial applies to both syncing methods; afterwards, follow the appropriate link to set up the syncing you wish to use.
 
