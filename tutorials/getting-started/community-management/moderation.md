@@ -2,7 +2,7 @@
 title: moderation
 description: 
 published: true
-date: 2023-09-05T18:37:50.226Z
+date: 2023-10-10T23:43:26.234Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:08:06.914Z
@@ -23,7 +23,7 @@ Using SonoranBot, you have access to several commands that are all logged to a s
 
 You must set a logging channel for any of the commands to work. You can do so with the /settings slash command, like below:
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+![bot_setloggingchannelcommand.png](/tutorials/getting-started/community-management/moderation/bot_setloggingchannelcommand.png)
 
 #### 2. Set Permissions
 
@@ -42,9 +42,9 @@ By default, all commands are set to what you expect:
 
 The /warn command is attached to Manage Guild by default like all other commands - you will want to give this command to certain roles as desired. This can be accomplished within Discord's Integrations settings (Desktop/Web only).
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+![bot_discordmanageintegration.png](/tutorials/getting-started/community-management/moderation/bot_discordmanageintegration.png)
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+![bot_discordintegrationsettings.png](/tutorials/getting-started/community-management/moderation/bot_discordintegrationsettings.png)
 
 Managing integration permissions is outside the scope of this guide, but Discord [has a guide](https://support.discord.com/hc/en-us/articles/4644915651095-Command-Permissions) of their own to walk you through the process. Chances are, you've already done this if you're using the CAD/CMS integrations.
 
@@ -60,4 +60,4 @@ When a command is used, a logging entry will be created depending on the action.
 
 #### Warn
 
-![](<../../../.gitbook/assets/image (7).png>)
+![bot_warn.png](/tutorials/getting-started/community-management/moderation/bot_warn.png)
