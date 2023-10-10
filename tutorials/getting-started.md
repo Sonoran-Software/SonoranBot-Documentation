@@ -2,7 +2,7 @@
 title: 🛠 Getting Started
 description: Start using Sonoran Bot to link Sonoran products to your discord and perform common moderation actions...
 published: true
-date: 2023-09-27T19:42:56.873Z
+date: 2023-10-10T21:54:38.722Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:07:55.122Z
@@ -16,15 +16,18 @@ Sonoran Bot supports either CAD or CMS syncing. The below tutorial applies to bo
 
 [Invite the bot to your Discord server](https://sonoranbot.com/invite). You must have the "Manage Server" permission to add bots; plus any permissions the bot requires to function. You will also be joined to our support server (Sonoran Software Systems) automatically.
 
-## 2. Run the Setup Command
+## 2. Run the Settings Command
 
-1. After inviting the bot, run the `/setup` command.
+1. After inviting the bot, run the `/settings` command. You will then be prompted to select a logging channel for Sonoran Bot to use.
+
+![bot_setloggingchannel.png](/bot_setloggingchannel.png)
+
 2.  Determine which syncing method you wish to use; you may set up both community types.
 
     1. Enter your [Sonoran CAD ID and API key](https://info.sonorancad.com/sonoran-cad/api-integration/getting-started/retrieving-your-credentials).
     2. AND/OR Enter your [Sonoran CMS ID and API key](https://info.sonorancms.com/developer-api-documentation/api-integration/getting-started#gather-your-credentials).
 
-![screenshot_11.png](/screenshot_11.png)
+![screenshot_11.png](/bot_setuppage.png)
 
 You will then be presented with the results of the setup.
 
