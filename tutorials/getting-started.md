@@ -20,18 +20,18 @@ Sonoran Bot supports either CAD or CMS syncing. The below tutorial applies to bo
 
 1. After inviting the bot, run the `/settings` command. You will then be prompted to select a logging channel for Sonoran Bot to use.
 
-![bot_setloggingchannel.png](/bot_setloggingchannel.png)
+![bot_setloggingchannel.png](/tutorials/getting-started/bot_setloggingchannel.png)
 
 2.  Determine which syncing method you wish to use; you may set up both community types.
 
     1. Enter your [Sonoran CAD ID and API key](https://info.sonorancad.com/sonoran-cad/api-integration/getting-started/retrieving-your-credentials).
     2. AND/OR Enter your [Sonoran CMS ID and API key](https://info.sonorancms.com/developer-api-documentation/api-integration/getting-started#gather-your-credentials).
 
-![screenshot_11.png](/bot_setuppage.png)
+![screenshot_11.png](/tutorials/getting-started/bot_setuppage.png)
 
 You will then be presented with the results of the setup.
 
-![setupconfirm.png](/setupconfirm.png)
+![setupconfirm.png](/tutorials/getting-started/setupconfirm.png)
 
 > If you set up both CMS and CAD, the Discord bot will automatically use CMS mode. Otherwise, it will use the successfully set up mode.
 {.is-info}
@@ -40,7 +40,7 @@ You will then be presented with the results of the setup.
 
 If your community uses multiple discord servers, you can link them all to the same community to utilize the permissions sync easily using the `/guildlink` command, as shown below.
 
-![guildlink.png](/guildlink.png)
+![guildlink.png](/tutorials/getting-started/guildlink.png)
 
 Fill out the information (using either your CAD or CMS information), and you will receive a confirmation. At this point, you can use the other commands just like on the primary server.
 
