@@ -2,7 +2,7 @@
 title: moderation
 description: 
 published: true
-date: 2023-10-10T23:43:26.234Z
+date: 2023-10-12T19:41:58.561Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:08:06.914Z
@@ -21,9 +21,9 @@ Using SonoranBot, you have access to several commands that are all logged to a s
 
 #### 1. Set A Logging Channel
 
-You must set a logging channel for any of the commands to work. You can do so with the /settings slash command, like below:
+You must set a logging channel for any of the commands to work. You can do so with the `/settings` command, first selecting `Logging Settings`, next selecting whether you want to set the "General" or "Moderation" logging channel, then finally selecting what channel that the specified logging will post to.
 
-![bot_setloggingchannelcommand.png](/tutorials/getting-started/community-management/moderation/bot_setloggingchannelcommand.png)
+![bot_setloggingchannel.png](/tutorials/getting-started/community-management/moderation/bot_setloggingchannel.png)
 
 #### 2. Set Permissions
 
@@ -35,12 +35,12 @@ By default, all commands are set to what you expect:
 
 | Command | Required Permission       |
 | ------- | ------------------------- |
-| /ban    | Ban Members               |
-| /kick   | Kick Members              |
-| /mute   | Timeout Members           |
-| /warn   | Manage Guild ("disabled") |
+| `/ban`    | Ban Members               |
+| `/kick`   | Kick Members              |
+| `/mute`   | Timeout Members           |
+| `/warn`   | Manage Guild ("disabled") |
 
-The /warn command is attached to Manage Guild by default like all other commands - you will want to give this command to certain roles as desired. This can be accomplished within Discord's Integrations settings (Desktop/Web only).
+The `/warn` command is attached to Manage Guild by default like all other commands - you will want to give this command to certain roles as desired. This can be accomplished within Discord's Integrations settings (Desktop/Web only).
 
 ![bot_discordmanageintegration.png](/tutorials/getting-started/community-management/moderation/bot_discordmanageintegration.png)
 
@@ -53,6 +53,9 @@ Managing integration permissions is outside the scope of this guide, but Discord
 When a command is used, a logging entry will be created depending on the action.
 
 #### Ban/Unban
+
+![bot_bancommand.png](/tutorials/getting-started/community-management/moderation/bot_bancommand.png)
+![bot_banmessage.png](/tutorials/getting-started/community-management/moderation/bot_banmessage.png)
 
 #### Kick
 
