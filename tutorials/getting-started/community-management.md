@@ -2,7 +2,7 @@
 title: Community Management
 description: 
 published: true
-date: 2023-10-10T23:50:59.163Z
+date: 2023-10-12T23:36:48.741Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:08:01.094Z
@@ -18,9 +18,13 @@ Now, you can manage your community with some basic moderation and utility comman
 
 Running the command `/settings` allows you to manage many different aspects of how Sonoran Bot interacts with your Discord and CMS.
 
+![bot_settings.png](/tutorials/getting-started/community-management/bot_settings.png)
+
 ## API Settings
 
 Within the `/settings` menu, you can select API Settings, which will give you the options to change or delete the settings for your linked CAD and CMS communities.
+
+![bot_apisettings.png](/tutorials/getting-started/community-management/bot_apisettings.png)
 
 ## CMS Settings
 
@@ -34,7 +38,9 @@ Allows you to toggle sync between CMS calendar events and your Discord. Enabling
 
 Allows you to toggle Name Sync. Enabling this will automatically change the nicknames of all users in the server to their corresponding CMS account names.
 
-### SonoranCMSForms -> Discord
+### SonoranCMS Forms -> Discord
+
+![bot_cmsformsdiscord.png](/tutorials/getting-started/community-management/bot_cmsformsdiscord.png)
 
 #### Form Response Mode
 
@@ -63,3 +69,5 @@ If enabled will automatically remove a user from CMS if they leave or are banned
 ## Logging Settings
 
 Allows you to set or change the General logging channel and the Moderation logging channel.
+
+![bot_setloggingchannel.png](/tutorials/getting-started/community-management/moderation/bot_setloggingchannel.png)
