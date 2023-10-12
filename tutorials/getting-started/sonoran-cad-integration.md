@@ -17,9 +17,9 @@ In addition to automatically adding users when applications are accepted, [Sonor
 
 [Learn more today!](https://info.sonorancms.com/why-choose-sonoran-cms/why-choose-sonoran-cms)
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-M4pGN81fb4R6zFhodcu%2Fuploads%2FSjLVb2jKeswR4am8X9kH%2FBigSquare.png?alt=media&#x26;token=4e641634-cc44-44cf-b1c3-20ca4f746c89" alt=""><figcaption><p>Sonoran CMS x Sonoran CAD</p></figcaption></figure>
+![CMSxCAD.webp](/tutorials/getting-started/sonoran-cad-integration/CMSxCAD.webp)
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-M4pGN81fb4R6zFhodcu%2Fuploads%2Fv9ymIkkSomDZc27026rG%2Fimage.png?alt=media&#x26;token=5f470a38-3187-4394-9f18-5ed3cdf44603" alt=""><figcaption></figcaption></figure>
+![CMSxDiscord.webp](/tutorials/getting-started/sonoran-cad-integration/CMSxDiscord.webp)
 
 # Sonoran CAD Integration Guide
 
@@ -34,19 +34,19 @@ https://www.youtube.com/watch?v=VATCtHH7GQw
 
 The bot provides a brand new menu to assist you with assigning roles to permissions.
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-M4pGN81fb4R6zFhodcu%2Fuploads%2FXPqaE0G5eS0lR7prLghk%2FScreenshot_13.png?alt=media&#x26;token=f775bc57-30c5-42ff-8e96-c7fecbac5069" alt=""><figcaption></figcaption></figure>
+![Bot_CADRolemap01.webp](/tutorials/getting-started/sonoran-cad-integration/Bot_CADRolemap01.webp)
 
 Select a role:
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-M4pGN81fb4R6zFhodcu%2Fuploads%2FWMeVXTTMK6t0ANIWIrfy%2FScreenshot_14.png?alt=media&#x26;token=7af69b0e-a0cd-41cb-8bd3-6dc8591a5861" alt=""><figcaption></figcaption></figure>
+![Bot_CADRolemap02.webp](/tutorials/getting-started/sonoran-cad-integration/Bot_CADRolemap02.webp)
 
 Clicking "Set Mapping" will present an option to specify a code (using the linked tool) or an existing permission key. Enter "0" as the permission mask to delete the current mapping instead.
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-M4pGN81fb4R6zFhodcu%2Fuploads%2F9cCEioESKYGzwVV9SJEy%2FScreenshot_15.png?alt=media&#x26;token=1f53749a-423a-4da3-a207-3bc4343e174c" alt=""><figcaption></figcaption></figure>
+![Bot_CADRolemap03.webp](/tutorials/getting-started/sonoran-cad-integration/Bot_CADRolemap03.webp)
 
 Successfully entering this information will bring you back to the main role mapping screen with the new permission set.
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-M4pGN81fb4R6zFhodcu%2Fuploads%2FXkCTGkMTSZvbgKkk1TBb%2FScreenshot_16.png?alt=media&#x26;token=594526fe-cc43-449f-8c43-d075cdca14dd" alt=""><figcaption></figcaption></figure>
+![Bot_CADRolemap04.webp](/tutorials/getting-started/sonoran-cad-integration/Bot_CADRolemap04.webp)
 
 ## User Setup
 
