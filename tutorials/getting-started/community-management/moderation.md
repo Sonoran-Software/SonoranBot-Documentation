@@ -2,7 +2,7 @@
 title: moderation
 description: 
 published: true
-date: 2023-10-12T19:41:58.561Z
+date: 2023-10-17T23:54:19.970Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:08:06.914Z
@@ -59,8 +59,14 @@ When a command is used, a logging entry will be created depending on the action.
 
 #### Kick
 
+![bot_kick.png](/tutorials/getting-started/community-management/moderation/bot_kick.png)
+
 #### Mute/Unmute
+
+![bot_mute.png](/tutorials/getting-started/community-management/moderation/bot_mute.png)
+![bot_unmute.png](/tutorials/getting-started/community-management/moderation/bot_unmute.png)
 
 #### Warn
 
 ![bot_warn.png](/tutorials/getting-started/community-management/moderation/bot_warn.png)
+![bot_warnlog.png](/tutorials/getting-started/community-management/moderation/bot_warnlog.png)
