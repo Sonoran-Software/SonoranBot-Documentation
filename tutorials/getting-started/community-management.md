@@ -1,18 +1,12 @@
 ---
-title: Community Management
+title: Settings
 description: 
 published: true
-date: 2023-10-12T23:36:48.741Z
+date: 2023-10-24T19:40:34.121Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:08:01.094Z
 ---
-
-# Community Management
-
-### Community Management Features
-
-Now, you can manage your community with some basic moderation and utility commands! This section will be expanded in the near future.
 
 # Sonoran Bot Settings
 
@@ -53,6 +47,8 @@ Allows you to choose how webhook for form reponses are delivered. The options ar
 
 If you've selected `Discord Channel` or `Both` in Form Repsonse Mode, this is where you select the channel that the webhooks send to.
 
+![bot_formresponsemsg.png](/tutorials/getting-started/community-management/bot_formresponsemsg.png)
+
 #### Form Response Fallback Channel
 
 ### Clock In/Out
@@ -62,7 +58,7 @@ Toggles the ability to clock in and out in CMS from Discord. If enabled, users c
 ## Role Sync Settings
 
 ### Toggle Strip Unmapped
-If enabled will ...
+If enabled will automatically remove permissions from users who do not have a matching secret key to their Discord ID. This is only relevant if using CAD sync.
 ### Toggle Kick On Leave 
 If enabled will automatically remove a user from CMS if they leave or are banned from the Discord.
 
