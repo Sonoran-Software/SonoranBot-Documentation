@@ -12,13 +12,13 @@ dateCreated: 2023-08-19T00:08:01.094Z
 
 Running the command `/settings` allows you to manage many different aspects of how Sonoran Bot interacts with your Discord and CMS.
 
-![bot_settings.png](/tutorials/getting-started/community-management/bot_settings.png)
+![bot_settings.png](/tutorials/getting-started/settings/bot_settings.png)
 
 ## API Settings
 
 Within the `/settings` menu, you can select API Settings, which will give you the options to change or delete the settings for your linked CAD and CMS communities.
 
-![bot_apisettings.png](/tutorials/getting-started/community-management/bot_apisettings.png)
+![bot_apisettings.png](/tutorials/getting-started/settings/bot_apisettings.png)
 
 ## CMS Settings
 
@@ -34,7 +34,7 @@ Allows you to toggle Name Sync. Enabling this will automatically change the nick
 
 ### SonoranCMS Forms -> Discord
 
-![bot_cmsformsdiscord.png](/tutorials/getting-started/community-management/bot_cmsformsdiscord.png)
+![bot_cmsformsdiscord.png](/tutorials/getting-started/settings/bot_cmsformsdiscord.png)
 
 #### Form Response Mode
 
@@ -47,7 +47,7 @@ Allows you to choose how webhook for form reponses are delivered. The options ar
 
 If you've selected `Discord Channel` or `Both` in Form Repsonse Mode, this is where you select the channel that the webhooks send to.
 
-![bot_formresponsemsg.png](/tutorials/getting-started/community-management/bot_formresponsemsg.png)
+![bot_formresponsemsg.png](/tutorials/getting-started/settings/bot_formresponsemsg.png)
 
 #### Form Response Fallback Channel
 
@@ -66,4 +66,4 @@ If enabled will automatically remove a user from CMS if they leave or are banned
 
 Allows you to set or change the General logging channel and the Moderation logging channel.
 
-![bot_setloggingchannel.png](/tutorials/getting-started/community-management/moderation/bot_setloggingchannel.png)
+![bot_setloggingchannel.png](/tutorials/getting-started/settings/moderation/bot_setloggingchannel.png)
