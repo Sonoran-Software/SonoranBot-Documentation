@@ -2,7 +2,7 @@
 title: Sonoran CMS Integration
 description: Link Sonoran Bot to Sonoran CMS for role syncing and other handy features!
 published: true
-date: 2023-10-10T22:40:28.937Z
+date: 2023-10-24T21:10:48.899Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:08:23.412Z
@@ -41,23 +41,23 @@ The command `/rolemap` can now be used.
 
 The following image is when a CMS mode is selected.
 
-![Bot_Rolemap01.png](/tutorials/getting-started/sonoran-cms-integration/Bot_Rolemap01.png)
+![Bot_CMSRolemap01.png](/tutorials/getting-started/sonoran-cms-integration/bot_cmsrolemap01.png)
 
 Select a department, rank you wish to modify, and the role you wish to apply to the rank.
 
-![Bot_Rolemap02.png](/tutorials/getting-started/sonoran-cms-integration/Bot_Rolemap02.png)
+![Bot_CMSRolemap02.png](/tutorials/getting-started/sonoran-cms-integration/bot_cmsrolemap02.png)
 
 The `Set Department-wide Role` button will automatically assign the Department (in this example, Community Leadership) to anyone with the role you select.
 
-![Bot_Rolemap03.png](/tutorials/getting-started/sonoran-cms-integration/Bot_Rolemap03.png)
+![Bot_CMSRolemap03.png](/tutorials/getting-started/sonoran-cms-integration/bot_cmsrolemap03.png)
 
-Use the left and right arrows to page if you have more than 25 roles.
+There will be left and right arrows to page if you have more than 25 roles.
 
-![Bot_Rolemap04.png](/tutorials/getting-started/sonoran-cms-integration/Bot_Rolemap04.png)
+![Bot_CMSRolemap04.png](/tutorials/getting-started/sonoran-cms-integration/bot_cmsrolemap04.png)
 
-![Bot_Rolemap05.png](/tutorials/getting-started/sonoran-cms-integration/Bot_Rolemap05.png)
+![Bot_CMSRolemap05.png](/tutorials/getting-started/sonoran-cms-integration/bot_cmsrolemap05.png)
 
-In this example, having "Staff Role" in Discord will get the rank "Director" in the CMS.
+In this example, having "Staff" Role in Discord will get the rank "Civilian Director" in the CMS.
 
 At any time, you can change the dropdowns to select another Department or Rank.
 
@@ -67,3 +67,15 @@ At any time, you can change the dropdowns to select another Department or Rank.
 {.is-info}
 
 After setting up the above, the command `/syncroles` will set up everyone's permissions.
+
+# Form Status Updates <a href="#form-status-updates" id="form-status-updates"></a>
+
+Sonoran Bot can now ping users on Discord when their form or application statuses are updated in CMS. 
+To change these settings, open the `/settings` menu, then in the dropdown click `CMS Settings`, and from there select `SonoranCMS Forms -> Discord`. Here you can set the form response mode, channel and fallback channel.
+
+![bot_cmsformsdiscord.png](/tutorials/getting-started/community-management/bot_cmsformsdiscord.png)
+
+
+`Form Response Mode` can be set to ping in Discord via Direct Message, in a specified Discord channel, or both. If set to `Discord Channel` or `Both`, the `Form Response Channel` is the channel where this message will be posted. When its status changes, a message will be send like shown:
+
+![bot_formresponsemsg.png](/tutorials/getting-started/community-management/bot_formresponsemsg.png)
