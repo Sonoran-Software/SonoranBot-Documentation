@@ -2,13 +2,14 @@
 title: Sonoran CAD Integration
 description: Link Sonoran Bot to Sonoran CAD to sync permissions to Discord roles and other handy features!
 published: true
-date: 2023-09-27T19:41:57.921Z
+date: 2023-10-24T20:29:51.233Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:08:17.845Z
 ---
 
 # Manage with Sonoran CMS!
+
 > Use Sonoran CMS to link your discord roles to CMS and CAD permissions instead if you plan to/already use Sonoran CMS. Simply [link Sonoran Bot to Sonoran CMS](/tutorials/getting-started/sonoran-cms-integration) and setup [Sonoran CMS -> Sonoran CAD permission sync](https://info.sonorancms.com/integration-capabilities/sonoran-cad-sync)
 {.is-info}
 
@@ -63,7 +64,7 @@ Sometimes, you may wish to change your secret ID. If you do so from the [Setting
 
 ## Optional Security Setting
 
-By default, the bot will not remove permissions from users who do not have a matching secret key to their Discord ID. This can be enabled by setting `stripUnmappedUsers` to true with the `s!setting` command.
+By default, the bot will not remove permissions from users who do not have a matching secret key to their Discord ID. This can be enabled by setting `Toggle Strip Unmapped` to `ENABLED` within the `/settings` menu.
 
 ## Best Practices and FAQ
 
