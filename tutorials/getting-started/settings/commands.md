@@ -1,14 +1,16 @@
 ---
 title: Commands
-description: SonoranBot commands reference
+description: Learn more about Sonoran Bot's Discord commands.
 published: true
-date: 2023-10-24T20:46:03.525Z
+date: 2023-10-24T20:51:07.933Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-24T20:46:03.525Z
 ---
 
-# Command Reference
+# Commands Reference
+
+By default, only server administrators (those with Administrator in the guild) can execute any of the below commands. You must use [Discord's permissions setting feature](https://discord.com/blog/slash-commands-permissions-discord-apps-bots) to give users access.
 
 | Command          | Mode    | Function                                           |
 | ---------------- | ------- | -------------------------------------------------- |
