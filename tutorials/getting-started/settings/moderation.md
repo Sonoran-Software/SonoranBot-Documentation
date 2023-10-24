@@ -2,7 +2,7 @@
 title: Moderation
 description: 
 published: true
-date: 2023-10-17T23:54:19.970Z
+date: 2023-10-24T21:30:39.174Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:08:06.914Z
@@ -10,22 +10,14 @@ dateCreated: 2023-08-19T00:08:06.914Z
 
 # Moderation
 
-## Community Moderation
-
 Using SonoranBot, you have access to several commands that are all logged to a special channel. Keep moderation actions organized and easily control access!
 
 > Moderation commands are available to any Discord server linked to a community, including Free CAD/CMS!
 {.is-info}
 
-### Getting Started
+## Getting Started
 
-#### 1. Set A Logging Channel
-
-You must set a logging channel for any of the commands to work. You can do so with the `/settings` command, first selecting `Logging Settings`, next selecting whether you want to set the "General" or "Moderation" logging channel, then finally selecting what channel that the specified logging will post to.
-
-![bot_setloggingchannel.png](/tutorials/getting-started/settings/moderation/bot_setloggingchannel.png)
-
-#### 2. Set Permissions
+### Set Permissions
 
 > The permissions in the below table are also what SonoranBot will need to perform them, otherwise you will get an error message.
 {.is-warning}
@@ -33,8 +25,8 @@ You must set a logging channel for any of the commands to work. You can do so wi
 
 By default, all commands are set to what you expect:
 
-| Command | Required Permission       |
-| ------- | ------------------------- |
+| Command   | Required Permission       |
+| --------- | ------------------------- |
 | `/ban`    | Ban Members               |
 | `/kick`   | Kick Members              |
 | `/mute`   | Timeout Members           |
@@ -48,25 +40,26 @@ The `/warn` command is attached to Manage Guild by default like all other comman
 
 Managing integration permissions is outside the scope of this guide, but Discord [has a guide](https://support.discord.com/hc/en-us/articles/4644915651095-Command-Permissions) of their own to walk you through the process. Chances are, you've already done this if you're using the CAD/CMS integrations.
 
-### Usage Examples
+## Usage Examples
 
 When a command is used, a logging entry will be created depending on the action.
 
-#### Ban/Unban
+### Ban/Unban
 
 ![bot_bancommand.png](/tutorials/getting-started/settings/moderation/bot_bancommand.png)
 ![bot_banmessage.png](/tutorials/getting-started/settings/moderation/bot_banmessage.png)
 
-#### Kick
+### Kick
 
 ![bot_kick.png](/tutorials/getting-started/settings/moderation/bot_kick.png)
+![bot_kickedlog.png](/tutorials/getting-started/community-management/moderation/bot_kickedlog.png)
 
-#### Mute/Unmute
+### Mute/Unmute
 
 ![bot_mute.png](/tutorials/getting-started/settings/moderation/bot_mute.png)
 ![bot_unmute.png](/tutorials/getting-started/settings/moderation/bot_unmute.png)
 
-#### Warn
+### Warn
 
 ![bot_warn.png](/tutorials/getting-started/settings/moderation/bot_warn.png)
 ![bot_warnlog.png](/tutorials/getting-started/settings/moderation/bot_warnlog.png)
