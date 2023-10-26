@@ -2,7 +2,7 @@
 title: Sonoran CMS Integration
 description: Link Sonoran Bot to Sonoran CMS for role syncing and other handy features!
 published: true
-date: 2023-10-24T21:10:48.899Z
+date: 2023-10-26T20:07:35.540Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:08:23.412Z
@@ -66,16 +66,8 @@ At any time, you can change the dropdowns to select another Department or Rank.
 > Unlike the CAD sync mode, users will not use the `/linkme` command - this is handled within the Sonoran Account SSO.
 {.is-info}
 
-After setting up the above, the command `/syncroles` will set up everyone's permissions.
+After setting up the above, the command `/sync` will set up everyone's permissions.
 
 # Form Status Updates <a href="#form-status-updates" id="form-status-updates"></a>
 
-Sonoran Bot can now ping users on Discord when their form or application statuses are updated in CMS. 
-To change these settings, open the `/settings` menu, then in the dropdown click `CMS Settings`, and from there select `SonoranCMS Forms -> Discord`. Here you can set the form response mode, channel and fallback channel.
-
-![bot_cmsformsdiscord.png](/tutorials/getting-started/community-management/bot_cmsformsdiscord.png)
-
-
-`Form Response Mode` can be set to ping in Discord via Direct Message, in a specified Discord channel, or both. If set to `Discord Channel` or `Both`, the `Form Response Channel` is the channel where this message will be posted. When its status changes, a message will be send like shown:
-
-![bot_formresponsemsg.png](/tutorials/getting-started/community-management/bot_formresponsemsg.png)
+Sonoran Bot can now ping users on Discord when their form or application statuses are updated in CMS. The mode and channel by which this occurs can be changed through the `/settings` menu as described [here](/tutorials/getting-started/settings#cmsforms-settings).
