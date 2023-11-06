@@ -2,7 +2,7 @@
 title: Sonoran CAD Integration
 description: Link Sonoran Bot to Sonoran CAD to sync permissions to Discord roles and other handy features!
 published: true
-date: 2023-10-24T23:45:42.633Z
+date: 2023-11-06T19:28:01.511Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:08:17.845Z
@@ -22,6 +22,9 @@ In addition to automatically adding users when applications are accepted, [Sonor
 
 ![CMSxDiscord.webp](/tutorials/getting-started/sonoran-cad-integration/CMSxDiscord.webp)
 
+> 
+{.is-warning}
+
 # Sonoran CAD Integration Guide
 
 ## Setup Guide
@@ -30,7 +33,7 @@ https://www.youtube.com/watch?v=VATCtHH7GQw
 
 ## Permissions Synchronization
 
-> You must have the Manage Server permission on the Discord server in order to set up this process.
+> Additionally, you must have the Manage Server permission on the Discord server in order to set up this process.
 {.is-warning}
 
 The bot provides a brand new menu to assist you with assigning roles to permissions.
@@ -49,11 +52,14 @@ Successfully entering this information will bring you back to the main role mapp
 
 ![Bot_CADRolemap04.png](/tutorials/getting-started/sonoran-cad-integration/bot_cadrolemap04.png)
 
+> If you've linked your Discord to CMS, CAD permissions will be handled by CMS > CAD integration
+{.is-warning}
+
 ## User Setup
 
 1. Every user in the Discord will get their [Secret ID from their Settings page](https://info.sonorancad.com/sonoran-cad/api-integration/getting-started/account-secret-id).
 2. Every user in the Discord will then use `/linkme` to link their Sonoran CAD account to their current Discord account. This will automatically populate their API ID.
-3. Community members can use the `/syncme` command in Discord to force a permissions sync.
+3. Community members can use the `/sync` command in Discord to force a permissions sync.
 4. Communities should **no longer use public permission keys in the CAD**, as the bot will automatically remove CAD permissions from users if they don't have a Discord role for it.
 
 Now, whenever a role is added or removed, the bot will automatically update the user's permissions to match! If the user ever leaves the server, the bot will immediately remove all permissions from their account, although they will still be in the community.
@@ -67,7 +73,6 @@ Sometimes, you may wish to change your secret ID. If you do so, you must run `/l
 By default, the bot will not remove permissions from users who do not have a matching secret key to their Discord ID. This can be enabled by setting `Toggle Strip Unmapped` to `ENABLED` within the `/settings` menu.
 
 ## Best Practices and FAQ
-
 * It is advised to not sync potentially dangerous permissions (such as Admin Access permissions) with Discord roles **unless** you trust staff with that role, or it's just you.
 * The community owner is completely ignored during the synchronization process.
 * "Principle of Least Privilege" should be exercised during this setup. Don't give out permissions you don't think users performing the role would need.
