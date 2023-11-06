@@ -2,7 +2,7 @@
 title: Commands
 description: Learn more about Sonoran Bot's Discord commands.
 published: true
-date: 2023-11-06T19:48:45.389Z
+date: 2023-11-06T23:34:33.355Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-24T20:46:03.525Z
@@ -16,9 +16,10 @@ By default, only server administrators (those with Administrator in the guild) c
 | ---------------- | ------- | -------------------------------------------------- |
 | `/guildlink`     | CAD/CMS | Links a guild to an existing CAD or CMS community  |
 | `/rolemap`       | CAD/CMS | Opens role mapping settings                        |
-| `/settings`      |         | Allows adjustment of various settings in the bot   |
+| `/settings`      |         | Allows adjustment of various [settings](https://info.sonoranbot.com/en/tutorials/getting-started/settings) in the bot    |
 | `/linkme`        | CAD     | Links your Discord to your SonoranCAD account      |
-| `/sync`          | CAD/CMS | Forces a sync with CAD/CMS. If `whole_guild` is toggled, it will force a sync for everyone in your guild, if not then it will only sync you.             |
+| `/sync`          | CAD/CMS | Forces a sync with CAD/CMS. If `whole_guild` is toggled, it will force a sync for everyone in your guild, if not then it will only sync you.       |
+| `/help`		     	 |				 | Links to sonoranbot.com                            |
 | `/clockincms`    | CMS     | Clock in to CMS                                    |
 | `/clockoutcms`   | CMS     | Clock out of CMS                                   | 
 | `/caduser`       | CAD     | Get information on a linked CAD user               |
