@@ -2,7 +2,7 @@
 title: Sonoran CMS Integration
 description: Link Sonoran Bot to Sonoran CMS for role syncing and other handy features!
 published: true
-date: 2023-10-26T20:07:35.540Z
+date: 2023-11-07T20:27:50.181Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:08:23.412Z
@@ -47,7 +47,7 @@ Select a department, rank you wish to modify, and the role you wish to apply to 
 
 ![Bot_CMSRolemap02.png](/tutorials/getting-started/sonoran-cms-integration/bot_cmsrolemap02.png)
 
-The `Set Department-wide Role` button will automatically assign the Department (in this example, Community Leadership) to anyone with the role you select.
+The `Set Department-wide Role` button will automatically assign the Department (in this example, Civilian Department) to anyone with the role you select.
 
 ![Bot_CMSRolemap03.png](/tutorials/getting-started/sonoran-cms-integration/bot_cmsrolemap03.png)
 
@@ -57,7 +57,7 @@ There will be left and right arrows to page if you have more than 25 roles.
 
 ![Bot_CMSRolemap05.png](/tutorials/getting-started/sonoran-cms-integration/bot_cmsrolemap05.png)
 
-In this example, having "Staff" Role in Discord will get the rank "Civilian Director" in the CMS.
+In this example, having `Staff` Role in Discord will get the rank `Civilian Director` in the CMS.
 
 At any time, you can change the dropdowns to select another Department or Rank.
 
