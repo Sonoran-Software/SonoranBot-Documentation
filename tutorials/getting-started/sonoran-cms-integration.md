@@ -2,7 +2,7 @@
 title: Sonoran CMS Integration
 description: Link Sonoran Bot to Sonoran CMS for role syncing and other handy features!
 published: true
-date: 2023-11-07T20:27:50.181Z
+date: 2023-11-16T21:34:04.385Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:08:23.412Z
@@ -68,6 +68,10 @@ At any time, you can change the dropdowns to select another Department or Rank.
 
 After setting up the above, the command `/sync` will set up everyone's permissions.
 
-# Form Status Updates <a href="#form-status-updates" id="form-status-updates"></a>
+# Features <a href="#features" id="features"></a>
 
-Sonoran Bot can now ping users on Discord when their form or application statuses are updated in CMS. The mode and channel by which this occurs can be changed through the `/settings` menu as described [here](/tutorials/getting-started/settings#cmsforms-settings).
+All the below features can be changed through the `/settings` menu described [here](/tutorials/getting-started/settings#cms-settings).
+
+- Sonoran Bot can now ping users on Discord when their form or application statuses are updated in CMS. 
+- Sonoran Bot syncs calendar events created in your CMS by automatically creating an event in your discord server.
+- If enabled, Sonoran Bot syncs the names of your CMS users with their Discord account. Their Discord accounts are automatically given nicknames accordingly.
