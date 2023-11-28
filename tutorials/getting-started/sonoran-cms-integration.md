@@ -2,7 +2,7 @@
 title: Sonoran CMS Integration
 description: Link Sonoran Bot to Sonoran CMS for role syncing and other handy features!
 published: true
-date: 2023-11-22T23:11:47.145Z
+date: 2023-11-28T22:26:19.768Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:08:23.412Z
@@ -39,25 +39,30 @@ Once enabled in the CMS, users who do not yet have their Discord account linked 
 
 The command `/rolemap` can now be used.
 
-The following image is when a CMS mode is selected.
-
 ![Bot_CMSRolemap01.png](/tutorials/getting-started/sonoran-cms-integration/bot_cmsrolemap01.png)
 
-Select a department, rank you wish to modify, and the role you wish to apply to the rank.
-
-
-
-![Bot_CMSRolemap03.png](/tutorials/getting-started/sonoran-cms-integration/bot_cmsrolemap03.png)
+Select a department, the rank you wish to modify, and the role you wish to apply to the rank.
 
 There will be left and right arrows to page if you have more than 25 roles.
 
+![Bot_CMSRolemap03.png](/tutorials/getting-started/sonoran-cms-integration/bot_cmsrolemap03.png)
+
 ![Bot_CMSRolemap04.png](/tutorials/getting-started/sonoran-cms-integration/bot_cmsrolemap04.png)
+
+In this example, having `Staff` Role in Discord will get the rank `Civilian Director` in the CMS:
 
 ![Bot_CMSRolemap05.png](/tutorials/getting-started/sonoran-cms-integration/bot_cmsrolemap05.png)
 
-In this example, having `Staff` Role in Discord will get the rank `Civilian Director` in the CMS.
 
 At any time, you can change the dropdowns to select another Department or Rank.
+
+There is ample room for specific customization with role mapping. You can map multiple roles to the same rank and multiple ranks to one role should you so desire. 
+
+Keep in mind that sync is bi-directional, so if multiple ranks are mapped to one role (or vice versa) then granting a member one rank will grant them the associated role, which will subsequently grant them the other ranks mapped to the same role.
+
+If you wish to remove a mapping, you can select the Role whose mapping you would like to remove and click the red `Clear Mapping` button.
+
+![bot_rolemapclear.png](/tutorials/getting-started/sonoran-cms-integration/bot_rolemapclear.png)
 
 # Role Syncing <a href="#role-syncing" id="role-syncing"></a>
 
@@ -65,6 +70,10 @@ At any time, you can change the dropdowns to select another Department or Rank.
 {.is-info}
 
 After setting up the above, the command `/sync` will set up everyone's permissions.
+
+Setting the flag `community` to `Yes` will sync your entire community including any linked guilds. Setting it to no or running `/sync` by itself will only sync the server you run it in.
+
+After the initial sync, changes in role mappings will generally sync themselves automatically.
 
 # Features <a href="#features" id="features"></a>
 
