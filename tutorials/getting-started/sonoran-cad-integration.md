@@ -2,7 +2,7 @@
 title: Sonoran CAD Integration
 description: Link Sonoran Bot to Sonoran CAD to sync permissions to Discord roles and other handy features!
 published: true
-date: 2023-11-28T18:03:30.104Z
+date: 2023-11-28T23:23:17.116Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:08:17.845Z
@@ -14,7 +14,9 @@ dateCreated: 2023-08-19T00:08:17.845Z
 {.is-info}
 
 
-In addition to automatically adding users when applications are accepted, [Sonoran CMS](https://info.sonorancms.com/why-choose-sonoran-cms/why-choose-sonoran-cms) can also manage your community's CAD permissions!
+In addition to automatically adding users when applications are accepted, [Sonoran CMS](https://info.sonorancms.com/why-choose-sonoran-cms/why-choose-sonoran-cms) can also manage your community's CAD permissions! 
+
+If you don't use CMS, don't worry! [You can still set up CAD role mapping normally](#cad-integration).
 
 [Learn more today!](https://info.sonorancms.com/why-choose-sonoran-cms/why-choose-sonoran-cms)
 
@@ -22,7 +24,7 @@ In addition to automatically adding users when applications are accepted, [Sonor
 
 ![CMSxDiscord.webp](/tutorials/getting-started/sonoran-cad-integration/CMSxDiscord.webp)
 
-# Sonoran CAD Integration Guide
+# Sonoran CAD Integration Guide <a href="cad-integration" id="cad-integration"></a>
 
 ## Setup Guide
 
@@ -33,15 +35,15 @@ https://www.youtube.com/watch?v=0j14Q1IrnYU
 > Additionally, you must have the Manage Server permission on the Discord server in order to set up this process.
 {.is-warning}
 
-The bot provides a brand new menu to assist you with assigning roles to permissions.
+The bot provides a brand new menu to assist you with assigning roles to permissions. To start, select the role you wish to map permissions to from the dropdown.
 
 ![Bot_CADRolemap01.png](/tutorials/getting-started/sonoran-cad-integration/bot_cadrolemap01.png)
 
-Select a role:
+Once you've selected a role, you can use the linked tool to toggle what permissions that a user with this role should receive. It will generate a number corresponding to the selected permissions that you can copy and input in the next step.
 
 ![Bot_CADRolemap02.png](/tutorials/getting-started/sonoran-cad-integration/bot_cadrolemap02.png)
 
-Clicking "Set Mapping" will present an option to specify a code (using the linked tool) or an existing permission key. Enter "0" as the permission mask to delete the current mapping instead.
+Clicking `Set Mapping` will present an option to specify a code (generated using the linked tool) or an existing permission key. Enter "0" as the permission mask to delete the current mapping instead.
 
 ![Bot_CADRolemap03.png](/tutorials/getting-started/sonoran-cad-integration/bot_cadrolemap03.png)
 
@@ -61,11 +63,11 @@ Successfully entering this information will bring you back to the main role mapp
 
 Now, whenever a role is added or removed, the bot will automatically update the user's permissions to match! If the user ever leaves the server, the bot will immediately remove all permissions from their account, although they will still be in the community.
 
-## Changing your Account Secret ID
+### Changing your Account Secret ID
 
 Sometimes, you may wish to change your secret ID. If you do so, you must run `/linkme` again or the bot will remove all your permissions on Sonoran CAD (if the optional security setting below is enabled).
 
-## Optional Security Setting
+### Optional Security Setting
 
 By default, the bot will not remove permissions from users who do not have a matching secret key to their Discord ID. This can be enabled by setting `Toggle Strip Unmapped` to `ENABLED` within the `/settings` menu.
 
