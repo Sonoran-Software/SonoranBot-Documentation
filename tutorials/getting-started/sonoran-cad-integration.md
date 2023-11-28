@@ -2,7 +2,7 @@
 title: Sonoran CAD Integration
 description: Link Sonoran Bot to Sonoran CAD to sync permissions to Discord roles and other handy features!
 published: true
-date: 2023-11-22T23:11:45.630Z
+date: 2023-11-28T18:03:30.104Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:08:17.845Z
@@ -21,9 +21,6 @@ In addition to automatically adding users when applications are accepted, [Sonor
 ![CMSxCAD.webp](/tutorials/getting-started/sonoran-cad-integration/CMSxCAD.webp)
 
 ![CMSxDiscord.webp](/tutorials/getting-started/sonoran-cad-integration/CMSxDiscord.webp)
-
-> 
-{.is-warning}
 
 # Sonoran CAD Integration Guide
 
