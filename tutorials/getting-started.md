@@ -2,7 +2,7 @@
 title: 🛠 Getting Started
 description: Start using Sonoran Bot to link Sonoran products to your discord and perform common moderation actions...
 published: true
-date: 2023-10-26T23:22:44.089Z
+date: 2023-11-29T00:08:04.539Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:07:55.122Z
@@ -29,16 +29,14 @@ Sonoran Bot supports either CAD or CMS syncing. The below tutorial applies to bo
 
 ![screenshot_11.png](/tutorials/getting-started/bot_setuppage.png)
 
-You will then be presented with the results of the setup.
-
-![setupconfirm.png](/tutorials/getting-started/setupconfirm.png)
+Click `Submit` and the setup is now complete.
 
 > If you set up both CMS and CAD, the Discord bot will automatically use CMS mode. Otherwise, it will use the successfully set up mode.
 {.is-info}
 
 ## 3. Invite to Additional Servers
 
-If your community uses multiple discord servers, you can link them all to the same community to utilize the permissions sync easily using the `/guildlink` command, as shown below.
+If your community uses multiple discord servers, you can link them all to the same community to utilize the permissions sync easily. To do this, run the `/guildlink` command in any other servers you wish to link as shown below:
 
 ![guildlink.png](/tutorials/getting-started/guildlink.png)
 
