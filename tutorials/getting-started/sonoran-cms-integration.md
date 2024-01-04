@@ -2,7 +2,7 @@
 title: Sonoran CMS Integration
 description: Link Sonoran Bot to Sonoran CMS for role syncing and other handy features!
 published: true
-date: 2023-11-28T22:26:19.768Z
+date: 2024-01-04T23:34:20.736Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:08:23.412Z
@@ -31,9 +31,11 @@ Users must link their Discord to their Sonoran account. This will also automatic
 
 **Link your Discord Account**
 
-Once enabled in the CMS, users who do not yet have their Discord account linked with their Sonoran account will see the following banner:
+Once the bot has been added and linked to CMS, any users who do not yet have their Discord account linked with their Sonoran account will see the following banner:
 
 ![Bot_LinkDiscordCMS.png](/tutorials/getting-started/sonoran-cms-integration/Bot_LinkDiscordCMS.png)
+
+They will be required to link their discord in order for the bot's features to work on them. This banner will show until they link their Discord to their Sonoran account.
 
 ## 2. Role Mapping <a href="#2.-role-mapping" id="2.-role-mapping"></a>
 
