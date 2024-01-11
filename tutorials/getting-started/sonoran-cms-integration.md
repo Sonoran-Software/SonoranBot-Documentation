@@ -2,7 +2,7 @@
 title: Sonoran CMS Integration
 description: Link Sonoran Bot to Sonoran CMS for role syncing and other handy features!
 published: true
-date: 2024-01-04T23:34:20.736Z
+date: 2024-01-11T23:06:47.268Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:08:23.412Z
@@ -84,3 +84,43 @@ All the below features can be changed through the `/settings` menu described [he
 - Sonoran Bot can now ping users on Discord when their form or application statuses are updated in CMS. 
 - Sonoran Bot syncs calendar events created in your CMS by automatically creating an event in your discord server.
 - If enabled, Sonoran Bot syncs the names of your CMS users with their Discord account. Their Discord accounts are automatically given nicknames accordingly.
+
+# Role Mapping in CMS <a href="#role-mapping-in-cms" id="role-mapping-in-cms"></a>
+
+You can also configure rolemapping from within CMS as well. 
+
+This window can be accessed from CMS in `Admin Panel` > `Integrations` > `Discord` > `Role Mapping`
+
+Here you can view all mapped ranks and what Discord roles they're mapped to, as well as add or delete mappings.
+
+![botcms_rolemap_1.png](/tutorials/getting-started/sonoran-cms-integration/botcms_rolemap_1.png)
+
+To add a new mapping, first start by selecting a rank:
+
+![botcms_rolemap_2.png](/tutorials/getting-started/sonoran-cms-integration/botcms_rolemap_2.png)
+
+Next, select the Discord role(s) you wish to map this rank to:
+
+![botcms_rolemap_3-1.png](/tutorials/getting-started/sonoran-cms-integration/botcms_rolemap_3-1.png)
+> **Hint:** You can select multiple roles to map to one rank. However, you can't select multiple ranks at once.
+>Thus, if you want to map multiple ranks to one role, you will have to create a separate entry for every rank you wish to map. {.is-info}
+
+When you're ready to create the mapping, click the `Add` button on the right-hand side.
+
+![botcms_rolemap_4.png](/tutorials/getting-started/sonoran-cms-integration/botcms_rolemap_4.png)
+
+When you've clicked `Add`, it will show in the list alongside all previously existing mappings.
+
+![botcms_rolemap_5-1-1.png](/tutorials/getting-started/sonoran-cms-integration/botcms_rolemap_5-1-1.png)
+
+At any time, you can add additional Discord roles to an existing Rank mapping by clicking the plus button.
+
+![botcms_rolemap_6.png](/tutorials/getting-started/sonoran-cms-integration/botcms_rolemap_6.png)
+
+This will open up a dropdown where you can select additional Discord roles to map.
+
+![botcms_rolemap_7-2.png](/tutorials/getting-started/sonoran-cms-integration/botcms_rolemap_7-2.png)
+
+When you've selected all desired roles, click outside and it will automatically save your new mapping.
+
+![botcms_rolemap_8-1.png](/tutorials/getting-started/sonoran-cms-integration/botcms_rolemap_8-1.png)
