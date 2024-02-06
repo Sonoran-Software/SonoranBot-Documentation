@@ -2,7 +2,7 @@
 title: Sonoran CAD Integration
 description: Link Sonoran Bot to Sonoran CAD to sync permissions to Discord roles and other handy features!
 published: true
-date: 2023-11-28T23:23:17.116Z
+date: 2024-02-06T23:21:26.656Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:08:17.845Z
@@ -28,7 +28,7 @@ If you don't use CMS, don't worry! [You can still set up CAD role mapping normal
 
 ## Setup Guide
 
-https://www.youtube.com/watch?v=0j14Q1IrnYU
+https://www.youtube.com/watch?v=N-aO0pCfmRg
 
 ## Permissions Synchronization
 
