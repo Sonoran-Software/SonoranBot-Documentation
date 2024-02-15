@@ -2,7 +2,7 @@
 title: 🛠 Getting Started
 description: Start using Sonoran Bot to link Sonoran products to your discord and perform common moderation actions...
 published: true
-date: 2023-11-29T00:08:04.539Z
+date: 2024-02-15T21:13:42.617Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:07:55.122Z
@@ -36,11 +36,7 @@ Click `Submit` and the setup is now complete.
 
 ## 3. Invite to Additional Servers
 
-If your community uses multiple discord servers, you can link them all to the same community to utilize the permissions sync easily. To do this, run the `/guildlink` command in any other servers you wish to link as shown below:
-
-![guildlink.png](/tutorials/getting-started/guildlink.png)
-
-Fill out the information (using either your CAD or CMS information), and you will receive a confirmation. At this point, you can use the other commands just like on the primary server.
+If your community uses multiple discord servers, you can link them all to the same community to utilize the permissions sync easily. Simply set them up normally as you just did, and they will automatically be synced! You will be able to use the bot's commands just like on the primary server.
 
 ## 4. Set up Integrations
 
