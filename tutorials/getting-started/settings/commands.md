@@ -2,7 +2,7 @@
 title: Commands
 description: Learn more about Sonoran Bot's Discord commands.
 published: true
-date: 2023-12-20T18:55:56.598Z
+date: 2024-02-15T21:15:42.509Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-24T20:46:03.525Z
@@ -14,7 +14,6 @@ By default, only server administrators (those with Administrator in the guild) c
 
 | Command          | Product | Function                                           |
 | ---------------- | ------- | -------------------------------------------------- |
-| `/guildlink`     | CAD/CMS | Links a guild to an existing CAD or CMS community  |
 | `/rolemap`       | CAD/CMS | Opens role mapping settings                        |
 | `/settings`      |         | Allows adjustment of various [settings](https://info.sonoranbot.com/en/tutorials/getting-started/settings) in the bot    |
 | `/linkme`        | CAD     | Links your Discord to your SonoranCAD account      |
@@ -37,6 +36,7 @@ By default, only server administrators (those with Administrator in the guild) c
 These commands are no longer in use, please use the specified replacements (or see notes).
 | Command          | Replacement    | Notes                                          |
 | ---------------- | -------------- | ---------------------------------------------- |
+| `/guildlink`     | None           | Setup additional communities through `/settings` and they will be linked automatically  |
 | `/syncroles`     | `/sync`        | Set `community` to `Yes` to sync entire guild  |
 | `/syncme`        | `/sync`        | Set `community` to `No` or run `/sync` alone   |
 | `/setsyncmode`   | None           | Automatically detects sync mode. If a CMS community has been linked to your guild, then it will sync to that, and and CAD roles will have to be mapped using [CMS -> CAD Permission Sync](https://info.sonorancms.com/integration-capabilities/sonoran-cad-sync)  |
