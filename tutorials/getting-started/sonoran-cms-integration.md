@@ -2,7 +2,7 @@
 title: Sonoran CMS Integration
 description: Link Sonoran Bot to Sonoran CMS for role syncing and other handy features!
 published: true
-date: 2024-02-06T23:22:00.245Z
+date: 2024-02-22T21:40:51.588Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:08:23.412Z
@@ -124,3 +124,13 @@ This will open up a dropdown where you can select additional Discord roles to ma
 When you've selected all desired roles, click outside and it will automatically save your new mapping.
 
 ![botcms_rolemap_8-1.png](/tutorials/getting-started/sonoran-cms-integration/botcms_rolemap_8-1.png)
+
+# Import Discord Roles as CMS Ranks <a href="#import-roles-cms" id="import-roles-cms"></a>
+
+For any Discord guild linked to your CMS, you can choose to import specific roles as ranks into any CMS department. 
+
+It will automatically create ranks matching the name and color of your roles, though in depth permission customization will still have to be done as normal.
+
+You can read more on importing Discord roles [here](https://info.sonorancms.com/tutorials/user-management/creating-departments#importing-ranks-from-discord-roles).
+
+![cms_ranksimportdiscordpanel.png](/tutorials/getting-started/sonoran-cms-integration/cms_ranksimportdiscordpanel.png)
