@@ -2,7 +2,7 @@
 title: Sonoran CMS Integration
 description: Link Sonoran Bot to Sonoran CMS for role syncing and other handy features!
 published: true
-date: 2024-02-22T21:40:51.588Z
+date: 2024-03-08T00:02:27.106Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-19T00:08:23.412Z
@@ -134,3 +134,11 @@ It will automatically create ranks matching the name and color of your roles, th
 You can read more on importing Discord roles [here](https://info.sonorancms.com/tutorials/user-management/creating-departments#importing-ranks-from-discord-roles).
 
 ![cms_ranksimportdiscordpanel.png](/tutorials/getting-started/sonoran-cms-integration/cms_ranksimportdiscordpanel.png)
+
+# CMS Calendar Integration 
+
+If you have linked SonoranBot to your community, creating an event in CMS will automatically create an event within your community's Discord channel making it easy to coordinate community events across multiple platforms!
+
+By clicking the `Interested` button, you will be automatically RSVP'd in CMS.
+
+![cms_calendareventdiscord.png](/tutorials/getting-started/sonoran-cms-integration/cms_calendareventdiscord.png)
