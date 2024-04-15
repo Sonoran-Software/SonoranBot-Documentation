@@ -1,0 +1,18 @@
+# Table of contents
+
+* [SonoranBot Documentation](README.md)
+* [Sonoran Bot](home.md)
+* [other-software](other-software/README.md)
+  * [Server Hosting](other-software/server-hosting.md)
+  * [Sonoran CAD](other-software/sonoran-cad.md)
+  * [Sonoran CMS](other-software/sonoran-cms.md)
+  * [Sonoran Radio](other-software/sonoran-radio.md)
+* [tutorials](tutorials/README.md)
+  * [Getting Started](tutorials/getting-started.md)
+  * [getting-started](tutorials/getting-started-1/README.md)
+    * [Sonoran Bot Settings](tutorials/getting-started/settings.md)
+    * [Sonoran CAD Integration](tutorials/getting-started/sonoran-cad-integration.md)
+    * [Sonoran CMS Integration](tutorials/getting-started/sonoran-cms-integration.md)
+    * [settings](tutorials/getting-started-1/settings-1/README.md)
+      * [Commands](tutorials/getting-started/settings/commands.md)
+      * [Moderation](tutorials/getting-started/settings/moderation.md)
