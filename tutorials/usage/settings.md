@@ -1,24 +1,24 @@
 ---
 title: Settings
-description: 
 published: true
 date: 2023-10-26T19:11:28.315Z
-tags: 
+tags: null
 editor: markdown
 dateCreated: 2023-08-19T00:08:01.094Z
+description: Learn more about SonoranBot's different settings.
 ---
 
-# Sonoran Bot Settings
+# Settings
 
 Running the command `/settings` allows you to manage many different aspects of how Sonoran Bot interacts with your Discord and CMS.
 
-![bot_settings.png](/tutorials/getting-started/settings/bot_settings.png)
+![SonoranBot - /settings command](../getting-started/settings/bot\_settings.png)
 
 ## API Settings <a href="#api-settings" id="api-settings"></a>
 
 Within the `/settings` menu, you can select API Settings, which will give you the options to change or delete the settings for your linked CAD and CMS communities.
 
-![bot_apisettings.png](/tutorials/getting-started/settings/bot_apisettings.png)
+![SonoranBot - API Settings](../getting-started/settings/bot\_apisettings.png)
 
 ## CMS Settings <a href="#cms-settings" id="cms-settings"></a>
 
@@ -36,20 +36,21 @@ Allows you to toggle Name Sync. Enabling this will automatically change the nick
 
 Sonoran Bot can now ping users on Discord when their form or application statuses are updated in CMS. This menu allows you to set the form response mode, channel and fallback channel.
 
-![bot_cmsformsdiscord.png](/tutorials/getting-started/community-management/bot_cmsformsdiscord.png)
+![SonoranBot - CMS Forms -> Discord Settings](../../.gitbook/assets/Bot\_CMSFormsDiscord.png)
 
 #### Form Response Mode
 
-Allows you to choose how webhook for form reponses are delivered. The options are as follows:
-- Discord Direct Message
-- Discord Channel
-- Both
+Allows you to choose how webhook for form responses are delivered. The options are as follows:
+
+* Discord Direct Message
+* Discord Channel
+* Both
 
 #### Form Response Channel
 
-If you've selected `Discord Channel` or `Both` in Form Repsonse Mode, this is where you select the channel that the webhooks send to.
+If you've selected `Discord Channel` or `Both` in Form Respsonse Mode, this is where you select the channel that the webhooks send to.
 
-![bot_formresponsemsg.png](/tutorials/getting-started/settings/bot_formresponsemsg.png)
+![SonoranBot - Form Response Message](../getting-started/settings/bot\_formresponsemsg.png)
 
 #### Form Response Fallback Channel
 
@@ -60,12 +61,15 @@ Toggles the ability to clock in and out in CMS from Discord. If enabled, users c
 ## Role Sync Settings <a href="#role-sync-settings" id="role-sync-settings"></a>
 
 ### Toggle Strip Unmapped
+
 If enabled will automatically remove permissions from users who do not have a matching secret key to their Discord ID. This is only relevant if using CAD sync.
-### Toggle Kick On Leave 
+
+### Toggle Kick On Leave
+
 If enabled will automatically remove a user from CMS if they leave or are banned from the Discord.
 
 ## Logging Settings <a href="#logging-settings" id="logging-settings"></a>
 
 Allows you to set or change the General logging channel and the Moderation logging channel.
 
-![bot_setloggingchannel.png](/tutorials/getting-started/settings/moderation/bot_setloggingchannel.png)
+![SonoranBot - Set Logging Channel](../getting-started/settings/moderation/bot\_setloggingchannel.png)
