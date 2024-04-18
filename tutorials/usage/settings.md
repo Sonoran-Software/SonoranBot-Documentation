@@ -22,51 +22,61 @@ Within the `/settings` menu, you can select API Settings, which will give you th
 
 ## CMS Settings <a href="#cms-settings" id="cms-settings"></a>
 
+#### CMS Settings Menu
+
+Many of the following settings can be toggled from within CMS in the settings menu located at  `Admin` > `Integrations` > `Discord` > `Settings`
+
+<figure><img src="../../.gitbook/assets/CMS_DiscordSettings.png" alt=""><figcaption><p>Sonoran CMS - Discord Settings</p></figcaption></figure>
+
 Within the `/settings` menu, you can select CMS Settings to change different settings related to how Sonoran Bot syncs with your CMS community. Within this menu, you can customize settings in the following categories:
 
-### Calendar Events <a href="#calendarevents-settings" id="calendarevents-settings"></a>
+### Calendar Sync <a href="#calendarevents-settings" id="calendarevents-settings"></a>
 
 Allows you to toggle sync between CMS calendar events and your Discord. Enabling this will create a Discord event for any calendar events created in CMS.
 
+This can also be toggled from CMS in `Admin` > `Integrations` > `Discord` > `Settings`
+
 ### Name Sync <a href="#namesync-settings" id="namesync-settings"></a>
 
-Allows you to toggle Name Sync. Enabling this will automatically change the nicknames of all users in the server to their corresponding CMS account names.
+Allows you to toggle Name Sync. Enabling this will automatically change the nicknames of all users in the server to their corresponding CMS community names.
 
-### SonoranCMS Forms -> Discord <a href="#cmsforms-settings" id="cmsforms-settings"></a>
+The name it shows is whatever you've set in [CMS's Name Customizations settings](https://info.sonorancms.com/tutorials/customization/community-branding-and-settings#community-name-customization).
 
-Sonoran Bot can now ping users on Discord when their form or application statuses are updated in CMS. This menu allows you to set the form response mode, channel and fallback channel.
+Thus, a hypothetical user whose name is displayed as `John Doe | 1A` would receive that as a nickname in Discord.
 
-![SonoranBot - CMS Forms -> Discord Settings](../../.gitbook/assets/Bot\_CMSFormsDiscord.png)
-
-#### Form Response Mode
-
-Allows you to choose how webhook for form responses are delivered. The options are as follows:
-
-* Discord Direct Message
-* Discord Channel
-* Both
-
-#### Form Response Channel
-
-If you've selected `Discord Channel` or `Both` in Form Respsonse Mode, this is where you select the channel that the webhooks send to.
-
-![SonoranBot - Form Response Message](../getting-started/settings/bot\_formresponsemsg.png)
-
-#### Form Response Fallback Channel
+This can also be toggled from CMS in `Admin` > `Integrations` > `Discord` > `Settings`
 
 ### Clock In/Out <a href="#cmsclock-settings" id="cmsclock-settings"></a>
 
 Toggles the ability to clock in and out in CMS from Discord. If enabled, users can do `/clockincms` to clock in or `/clockoutcms` to clock out. This will automatically send clock information to CMS.
 
+For more information on CMS's time clock system, [see its documentation here](https://info.sonorancms.com/tutorials/forms/clock-in-out-system).
+
+This can also be toggled from CMS in `Admin` > `Integrations` > `Discord` > `Settings`
+
+### Ban Sync
+
+Syncs CMS & Discord Guild bans with your community. If a user is banned from one, they will also automatically be banned from the other, and vice versa.
+
+This can also be toggled from CMS in `Admin` > `Integrations` > `Discord` > `Settings`
+
 ## Role Sync Settings <a href="#role-sync-settings" id="role-sync-settings"></a>
 
 ### Toggle Strip Unmapped
 
-If enabled will automatically remove permissions from users who do not have a matching secret key to their Discord ID. This is only relevant if using CAD sync.
+If enabled while using CAD sync, this will automatically remove permissions from users who do not have a matching secret key to their Discord ID.
+
+If enabled while using CMS sync, this will strip Discord Guild roles from users that are not mapped within the CMS.&#x20;
+
+This can also be toggled from CMS in `Admin` > `Integrations` > `Discord` > `Settings`
 
 ### Toggle Kick On Leave
 
-If enabled will automatically remove a user from CMS if they leave or are banned from the Discord.
+This will automatically remove a user from CMS if they leave or are banned from the Discord.&#x20;
+
+Likewise, it will also automatically remove a user from the Discord Guild if they leave the CMS community.
+
+This can also be toggled from CMS in `Admin` > `Integrations` > `Discord` > `Settings`
 
 ## Logging Settings <a href="#logging-settings" id="logging-settings"></a>
 
