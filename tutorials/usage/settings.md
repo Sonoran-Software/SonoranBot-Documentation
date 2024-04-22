@@ -30,7 +30,7 @@ Many of the following settings can be toggled from within CMS in the settings me
 
 Within the `/settings` menu, you can select CMS Settings to change different settings related to how Sonoran Bot syncs with your CMS community. Within this menu, you can customize settings in the following categories:
 
-### Calendar Sync <a href="#calendarevents-settings" id="calendarevents-settings"></a>
+### [Calendar Sync](../sonoran-cms-integration.md#cms-calendar-integration) <a href="#calendarevents-settings" id="calendarevents-settings"></a>
 
 Allows you to toggle sync between CMS calendar events and your Discord. Enabling this will create a Discord event for any calendar events created in CMS.
 
