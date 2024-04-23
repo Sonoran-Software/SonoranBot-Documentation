@@ -102,6 +102,8 @@ When a user is kicked from a Discord Guild:
 
 ### Account Banned
 
+When a user is banned from a Discord Guild:
+
 * If [ban sync](../usage/settings.md#ban-sync) is enabled
   * The user will be banned from the CMS
   * The user will be banned in any remaining Discord Guilds
