@@ -107,4 +107,7 @@ When a user is banned from a Discord Guild:
 * If [ban sync](../usage/settings.md#ban-sync) is enabled
   * The user will be banned from the CMS
   * The user will be banned in any remaining Discord Guilds
+* Bot checks for remaining "mapped" roles in any other linked Discord Guilds
+  * Any mapped ranks in remaining other Discord Guilds will remain unchanged
+  * Any mapped ranks that no longer remain in any Discord Guild will be removed
 
