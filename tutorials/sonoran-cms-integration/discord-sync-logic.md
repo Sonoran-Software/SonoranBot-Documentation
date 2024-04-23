@@ -4,6 +4,8 @@ description: Learn more about how Sonoran Bot syncs permissions with Discord.
 
 # Discord Sync Logic
 
+<figure><img src="../getting-started/sonoran-cad-integration/CMSxDiscord.webp" alt=""><figcaption></figcaption></figure>
+
 ## About
 
 The Sonoran Bot offers automated permission syncing by "mapping" CMS ranks to Discord roles.
