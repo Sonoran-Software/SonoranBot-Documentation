@@ -12,7 +12,8 @@
 ## Tutorials
 
 * [Getting Started](tutorials/getting-started.md)
-* [Sonoran CMS Integration](tutorials/sonoran-cms-integration.md)
+* [Sonoran CMS Integration](tutorials/sonoran-cms-integration/README.md)
+  * [Discord Sync Logic](tutorials/sonoran-cms-integration/discord-sync-logic.md)
 * [Sonoran CAD Integration](tutorials/sonoran-cad-integration.md)
 * [Usage](tutorials/usage/README.md)
   * [Settings](tutorials/usage/settings.md)

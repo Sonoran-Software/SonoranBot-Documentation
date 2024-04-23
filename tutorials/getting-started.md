@@ -48,7 +48,7 @@ If your community uses multiple discord servers, you can link them all to the sa
 
 At this point, you will need to select either CAD or CMS integration. We highly encourage users to make use of the CMS integration as the CMS can integrate with the CAD on its own!
 
-* [CMS Integration](sonoran-cms-integration.md)&#x20;
+* [CMS Integration](sonoran-cms-integration/)&#x20;
 * [CAD Integration](sonoran-cad-integration.md)&#x20;
 * [Settings](usage/settings.md)&#x20;
 * [Commands](usage/commands.md)
