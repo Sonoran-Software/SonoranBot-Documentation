@@ -26,19 +26,19 @@ All commands require at least the `Manage Server` permission on the Discord serv
 
 1. After inviting the bot, run the `/settings` command. You will then be prompted to select a logging channel for Sonoran Bot to use.
 
-![bot\_setloggingchannel.png](getting-started/bot\_setloggingchannel.png)
+![Sonoran Bot - Set Logging Channel](getting-started/bot\_setloggingchannel.png)
 
 2. Determine which syncing method you wish to use; you may set up both community types.
    1. Enter your [Sonoran CAD ID and API key](https://info.sonorancad.com/sonoran-cad/api-integration/getting-started/retrieving-your-credentials).
-   2. AND/OR Enter your [Sonoran CMS ID and API key](https://info.sonorancms.com/developer-api-documentation/api-integration/getting-started#gather-your-credentials).
-
-![screenshot\_11.png](getting-started/bot\_setuppage.png)
-
-Click `Submit` and the setup is now complete.
+   2. **AND/OR** Enter your [Sonoran CMS ID and API key](https://info.sonorancms.com/developer-api-documentation/api-integration/getting-started#gather-your-credentials).
 
 {% hint style="info" %}
-If you set up both CMS and CAD, the Discord bot will automatically use CMS mode. Otherwise, it will use the successfully set up mode.
+There is no way to use CAD sync mode if CMS credentials have been added. If you set up both CMS **and** CAD, the Discord bot will automatically use CMS mode. Otherwise, it will use the successfully set up mode.
 {% endhint %}
+
+![Sonoran Bot - Setup Panel](getting-started/bot\_setuppage.png)
+
+Click `Submit` and the setup is now complete.
 
 ### 3. Invite to Additional Servers
 
