@@ -20,6 +20,16 @@ When a user newly links their Discord account in the CMS:
 
 * CMS requests all existing Discord roles that the user has
 * CMS adds all associated "mapped" CMS ranks based on existing Discord roles
+* CMS [removes the Discord link](discord-sync-logic.md#user-discord-unlink) from any other CMS accounts
+
+### User Discord Unlink
+
+When a user has their Discord account unlinked from their CMS account:
+
+* CMS removes all associated "mapped" ranks
+* Bot removes all associated "mapped" roles
+
+_This ensures a user cannot unlink their Discord account from CMS prior to a ban, and keep their Discord roles._
 
 ### User CMS Join
 
