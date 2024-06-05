@@ -32,7 +32,7 @@ Link your CMS and Discord user accounts:
 [account-link.md](account-link.md)
 {% endcontent-ref %}
 
-## Create Role Mapping <a href="#role-syncing" id="role-syncing"></a>
+## Configure Role Mapping <a href="#role-syncing" id="role-syncing"></a>
 
 Configure role mapping to automate permissions:
 
@@ -40,13 +40,10 @@ Configure role mapping to automate permissions:
 [role-mapping.md](role-mapping.md)
 {% endcontent-ref %}
 
-## Features <a href="#features" id="features"></a>
+## Additional Features <a href="#features" id="features"></a>
 
-All the below features can be changed through the `/settings` menu described below:
+Additional features can be changed through the `/settings` menu described below:
 
 {% content-ref url="../usage/settings.md" %}
 [settings.md](../usage/settings.md)
 {% endcontent-ref %}
-
-* Sonoran Bot syncs calendar events created in your CMS by automatically creating an event in your discord server.
-* If enabled, Sonoran Bot syncs the names of your CMS users with their Discord account. Their Discord accounts are automatically given nicknames accordingly.
