@@ -13,6 +13,10 @@
 
 * [Getting Started](tutorials/getting-started.md)
 * [Sonoran CMS Integration](tutorials/sonoran-cms-integration/README.md)
+  * [Account Link](tutorials/sonoran-cms-integration/account-link.md)
+  * [Role Mapping](tutorials/sonoran-cms-integration/role-mapping.md)
+  * [Import Discord Roles](tutorials/sonoran-cms-integration/import-discord-roles.md)
+  * [Calendar Event Sync](tutorials/sonoran-cms-integration/calendar-event-sync.md)
   * [Discord Sync Logic](tutorials/sonoran-cms-integration/discord-sync-logic.md)
 * [Sonoran CAD Integration](tutorials/sonoran-cad-integration.md)
 * [Usage](tutorials/usage/README.md)
