@@ -14,7 +14,7 @@ Here, you can configure your CMS x Discord Mappings.
 
 ## Bi-Directional Mapping
 
-The bi-directional mapping allows one or more CMS ranks to be synced to a Discord role.
+The bi-directional mapping allows a CMS rank to be synced to one or more Discord roles.
 
 In this example, the `Bronze VIP` CMS rank is mapped to a `Bronze VIP` role in two different Discords.
 
@@ -32,7 +32,7 @@ Bi-directional is best for one-to-one mapping of a CMS rank to a matching Discor
 ### Discord Actions:
 
 * Adding one of these Discord roles will add both the CMS rank, and any remaining Discord roles.
-* Removing _both_ of these Discord roles will remove the CMS rank.
+* Removing one of the Discord roles will remove the CMS rank, and any remaining Discord roles.
 * Running a `/sync` will add any missing pieces of this mapping to the user, as long as they have part of it.
 
 ## Dependency Role
