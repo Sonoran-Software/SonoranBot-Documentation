@@ -14,7 +14,8 @@ Here, you can configure your CMS x Discord Mappings.
 
 ## Bi-Directional Mapping
 
-The bi-directional mapping allows a CMS rank to be synced to one or more Discord roles.
+The bi-directional mapping allows a CMS rank to be synced to one or more Discord roles.\
+If a user gets _any_ piece of the mapping (the CMS rank or any of the Discord roles) they will automatically recieve the _entire_ mapping.
 
 In this example, the `Bronze VIP` CMS rank is mapped to a `Bronze VIP` role in two different Discords.
 
@@ -26,8 +27,8 @@ Bi-directional is best for one-to-one mapping of a CMS rank to a matching Discor
 
 ### CMS Actions:
 
-* Adding this CMS rank to the user will grant both Discord roles.
-* Removing this CMS rank from the user will remove both Discord roles.
+* Adding this CMS rank to the user will grant all mapped Discord roles.
+* Removing this CMS rank from the user will remove all mapped Discord roles.
 
 ### Discord Actions:
 
@@ -37,11 +38,14 @@ Bi-directional is best for one-to-one mapping of a CMS rank to a matching Discor
 
 ## Dependency Role
 
-The dependency role mapping allows a user to recieve a Discord role based on having at least one of the required CMS ranks.
+The dependency role mapping grants a Discord role for having one or more of the CMS ranks.\
+Granting or removing the Discord role will do nothing.
 
 ### Use Case:
 
-Dependency role mappings are best for categorizing multiple CMS ranks with a higher level Discord role.
+Dependency role mappings are useful for organizing multiple CMS ranks under a higher-level Discord role for better labeling and visualization.
+
+For example, if you have various administration ranks, you can assign the `Staff` Discord role to anyone holding one of these individual ranks. This way, the `Staff` role serves as a visual organizer without the `Staff` role itself granting all the underlying CMS ranks (`Admin`, `Moderator`, etc.) as it would with a [bi-directional mapping](role-mapping.md#bi-directional-mapping).
 
 <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
@@ -58,18 +62,29 @@ Dependency role mappings are best for categorizing multiple CMS ranks with a hig
 
 ## Example of Both Types
 
-Both bi-directional and dependent role mappings can be used at the same time.
+Both [bi-directional](role-mapping.md#bi-directional-mapping) and [dependent role](role-mapping.md#dependency-role) mappings can be used at the same time.
 
-#### Bi-Directional
+**Use Case:**
 
-* Sync the `Admin` CMS rank with the `Admin` Discord role
-* Sync the `Moderator` CMS rank with the `Moderator` Discord role
-* Sync the `Super Admin` CMS rank with the `Super Admin` Discord role
-* Sync the `Manager` CMS rank with the `Manager` Discord role
+1. I want to grant each administrative rank in the CMS (`moderator`, `admin`, etc.) an associated Discord role (`moderator`, `admin`, etc.).
+2. I also want everyone who has one of those administrative ranks to also have the general `Staff` Discord role.
 
-#### **Dependent Role**
+#### Steps:
 
-* Grant the `Staff` Discord role if the user has either the `Admin`, `Moderator`, `Super Admin`, or `Manager` CMS rank(s).
+**Bi-Directional Mapping:**
+
+1. Create a bi-directional mapping for each administrative rank to its associated Discord role:
+   * Sync the `Admin` CMS rank with the `Admin` Discord role.
+   * Sync the `Moderator` CMS rank with the `Moderator` Discord role.
+   * Sync the `Super Admin` CMS rank with the `Super Admin` Discord role.
+   * Sync the `Manager` CMS rank with the `Manager` Discord role.
+
+**Dependency Mapping:**
+
+2. Create a dependency mapping from every administrative rank in the CMS (`moderator`, `admin`, etc.) to the `Staff` Discord role:
+   * This grants the `Staff` Discord role if the user has either the `Admin`, `Moderator`, `Super Admin`, or `Manager` CMS rank(s).
+
+**Note:** I do _NOT_ add the `Staff` Discord role to every bi-directional mapping, as granting the user the `Staff` Discord role would then grant every remaining administrative rank to the user. Remember, if a user has _any_ piece to a bi-directional mapping they will recieve the entire mapping.
 
 <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
