@@ -56,13 +56,17 @@ This can also be toggled from CMS in `Admin` > `Integrations` > `Discord` > `Set
 
 ### Ban Sync
 
-Syncs CMS & Discord Guild bans with your community. If a user is banned from one, they will also automatically be banned from the other, and vice versa.
+Syncs CMS & Discord Guild bans with your community. If a user is banned from one, they will also automatically be banned from the other, and vice versa. Banning a user in a linked Discord guild will also ban them in the CMS.
 
 This can also be toggled from CMS in `Admin` > `Integrations` > `Discord` > `Settings`
 
 ## Role Sync Settings <a href="#role-sync-settings" id="role-sync-settings"></a>
 
 ### Toggle Strip Unmapped
+
+{% hint style="warning" %}
+This feature has been temporarily removed and will return with a future update.
+{% endhint %}
 
 If enabled while using CAD sync, this will automatically remove permissions from users who do not have a matching secret key to their Discord ID.
 
