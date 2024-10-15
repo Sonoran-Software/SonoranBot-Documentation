@@ -73,10 +73,6 @@ Now, whenever a role is added or removed, the bot will automatically update the 
 
 Sometimes, you may wish to change your secret ID. If you do so, you must run `/linkme` again or the bot will remove all your permissions on Sonoran CAD (if the optional security setting below is enabled).
 
-#### Optional Security Setting
-
-By default, the bot will not remove permissions from users who do not have a matching secret key to their Discord ID. This can be enabled by setting `Toggle Strip Unmapped` to `ENABLED` within the `/settings` menu.
-
 ### Best Practices and FAQ
 
 * It is advised to not sync potentially dangerous permissions (such as Admin Access permissions) with Discord roles **unless** you trust staff with that role, or it's just you.
