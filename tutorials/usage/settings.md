@@ -62,18 +62,6 @@ This can also be toggled from CMS in `Admin` > `Integrations` > `Discord` > `Set
 
 ## Role Sync Settings <a href="#role-sync-settings" id="role-sync-settings"></a>
 
-### Toggle Strip Unmapped
-
-{% hint style="warning" %}
-This feature has been temporarily removed and will return with a future update.
-{% endhint %}
-
-If enabled while using CAD sync, this will automatically remove permissions from users who do not have a matching secret key to their Discord ID.
-
-If enabled while using CMS sync, this will strip Discord Guild roles from users that are not mapped within the CMS.&#x20;
-
-This can also be toggled from CMS in `Admin` > `Integrations` > `Discord` > `Settings`
-
 ### Toggle Kick On Leave
 
 This will automatically remove a user from CMS if they leave or are banned from the Discord.&#x20;
