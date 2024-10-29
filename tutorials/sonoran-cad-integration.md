@@ -18,9 +18,9 @@ Easily manage Sonoran CAD permissions by syncing them with Discord roles.
 
 To sync Discord roles with CAD permissions you will need **either**:
 
-[Option 1](sonoran-cad-integration.md#id-1.-via-sonoran-cms): The FREE version of Sonoran CAD and Sonoran CMS
+[Option 1](sonoran-cad-integration.md#id-1.-via-sonoran-cms): The **FREE** version of Sonoran CAD and Sonoran CMS
 
-[Option 2](sonoran-cad-integration.md#cad-integration): The PLUS version of Sonoran CAD
+[Option 2](sonoran-cad-integration.md#cad-integration): The **PLUS** version of Sonoran CAD
 
 ## 1. Via Sonoran CMS
 
@@ -42,13 +42,9 @@ In addition to automatically adding users to your CAD when applications are acce
 
 ## 2. Via Sonoran CAD <a href="#cad-integration" id="cad-integration"></a>
 
-{% hint style="info" %}
-Role mapping via Sonoran CAD and Discord directly requires the PLUS version of Sonoran CAD or higher.
-
-
+{% hint style="warning" %}
+Role mapping via Sonoran CAD and Discord directly requires the **PLUS** version of Sonoran CAD or higher.
 {% endhint %}
-
-
 
 ### Setup Guide
 
