@@ -38,13 +38,21 @@ This can also be toggled from CMS in `Admin` > `Integrations` > `Discord` > `Set
 
 ### Name Sync <a href="#namesync-settings" id="namesync-settings"></a>
 
-Allows you to toggle Name Sync. Enabling this will automatically change the nicknames of all users in the server to their corresponding CMS community names.
+Name sync allows you to sync the names between Sonoran CMS and Discord.
+
+This can also be toggled and configured from the CMS in `Admin` > `Integrations` > `Discord` > `Settings`
+
+#### CMS -> Discord Mode
+
+Enabling Name Sync in CMS -> Discord mode will automatically change the nicknames of all users in the Discord server to their corresponding CMS community names.
 
 The name it shows is whatever you've set in [CMS's Name Customizations settings](https://info.sonorancms.com/tutorials/customization/community-branding-and-settings#community-name-customization).
 
 Thus, a hypothetical user whose name is displayed as `John Doe | 1A` would receive that as a nickname in Discord.
 
-This can also be toggled from CMS in `Admin` > `Integrations` > `Discord` > `Settings`
+#### Discord -> CMS Mode
+
+Enabling Name Sync in Discord -> CMS mode will update users' CMS display names to match their Discord server name.
 
 ### Clock In/Out <a href="#cmsclock-settings" id="cmsclock-settings"></a>
 
