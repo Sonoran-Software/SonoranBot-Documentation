@@ -8,36 +8,45 @@ description: Learn more about mapping Discord roles in Sonoran CMS!
 
 In the `Administration` panel of the CMS, navigate to `Integrations` > `Discord` > `Role Mapping`
 
-Here, you can configure your CMS x Discord Mappings.
+Configure your CMS x Discord [One-to-One](role-mapping.md#one-to-one-mapping) and [Category](role-mapping.md#category-mapping) mappings below.
 
-## Example Mapping
+## One-to-One Mapping
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/one-to-one (2).png" alt="" width="375"><figcaption><p>CMS x Discord: One-to-One Mapping</p></figcaption></figure>
 
-### **Use Case:**
+<details>
 
-1. I want to grant each administrative rank in the CMS (`moderator`, `admin`, etc.) an associated Discord role (`moderator`, `admin`, etc.).
-2. I also want everyone who has one of those administrative ranks to also have the general `Staff` Discord role.
+<summary>One-to-One Mapping Explained</summary>
 
-### Steps:
+One-to-one mapping allows you to map a CMS rank to one or more Discord roles. Adding or removing a one-to-one mapped rank in the CMS will add or remove the Discord role and vice versa.
 
-#### ➡️**Mapping:**
+This mapping type is the most common.
 
-1. Create a mapping from every administrative rank in the CMS (`moderator`, `admin`, etc.) to the `Staff` Discord role:
+* CMS: `Admin` rank
+* Discord: `Admin` role in one or more Discord guilds
 
-* This grants the `Staff` Discord role if the user has either the `Admin`, `Moderator`, `Super Admin`, or `Manager` CMS rank(s).
+![](<../../.gitbook/assets/image (2).png>)
 
-#### ⬅️➡️ **Mapping**
+</details>
 
-2. Create a mapping for each administrative rank to its associated Discord role:
+## Category Mapping
 
-* Sync the `Admin` CMS rank with the `Admin` Discord role.
-* Sync the `Moderator` CMS rank with the `Moderator` Discord role.
-* Sync the `Super Admin` CMS rank with the `Super Admin` Discord role.
-* Sync the `Manager` CMS rank with the `Manager` Discord role.
+<figure><img src="../../.gitbook/assets/category.png" alt="" width="375"><figcaption><p>CMS x Discord: Category Mapping</p></figcaption></figure>
 
-**Note:** I do _NOT_ add the `Staff` Discord role to every ⬅️➡️ mapping, as granting the user the `Staff` Discord role would then grant every remaining administrative rank to the user.\
-Remember, if a user has _any_ piece to a ⬅️➡️ mapping they will receive the entire mapping.
+<details>
+
+<summary>Category Mapping Explained</summary>
+
+Category mapping allows you to map multiple CMS ranks to a single Discord role. If a user has any of the CMS ranks they will receive the Discord role. If a user has none of the CMS ranks the Discord role will be removed.
+
+This mapping type is best used for role categories.
+
+* CMS: Multiple staff ranks `Moderator`, `Admin` and `Director`
+* Discord: A general `Staff` role
+
+![](<../../.gitbook/assets/image (1).png>)
+
+</details>
 
 ## Syncing the Role Map
 
