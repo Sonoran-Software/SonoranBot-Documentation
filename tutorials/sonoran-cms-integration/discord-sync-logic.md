@@ -82,6 +82,7 @@ When a new Discord role is added to a user:
 
 * Bot informs the CMS of the new role
 * The associated "mapped" rank is applied in CMS
+* Bot applies all associated "mapped" roles to all additional Discord Guilds
 
 ### Account Role Removed
 
@@ -89,6 +90,7 @@ When a Discord role is removed from a user:
 
 * Bot informs the CMS of the role removal
 * The associated "mapped" rank is removed in CMS
+* Bot removes all associated "mapped" roles to all additional Discord Guilds
 
 ### Account Manual Sync
 
