@@ -12,13 +12,13 @@ description: Learn more about SonoranBot's different settings.
 
 Running the command `/settings` allows you to manage many different aspects of how Sonoran Bot interacts with your Discord and CMS.
 
-![SonoranBot - /settings command](../getting-started/settings/bot\_settings.png)
+![SonoranBot - /settings command](../getting-started/settings/bot_settings.png)
 
 ## API Settings <a href="#api-settings" id="api-settings"></a>
 
 Within the `/settings` menu, you can select API Settings, which will give you the options to change or delete the settings for your linked CAD and CMS communities.
 
-![SonoranBot - API Settings](../getting-started/settings/bot\_apisettings.png)
+![SonoranBot - API Settings](../getting-started/settings/bot_apisettings.png)
 
 ## CMS Settings <a href="#cms-settings" id="cms-settings"></a>
 
@@ -26,9 +26,13 @@ Within the `/settings` menu, you can select API Settings, which will give you th
 
 Many of the following settings can be toggled from within CMS in the settings menu located at  `Admin` > `Integrations` > `Discord` > `Settings`
 
-<figure><img src="../../.gitbook/assets/CMS_DiscordSettings.png" alt=""><figcaption><p>Sonoran CMS - Discord Settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt="" width="375"><figcaption></figcaption></figure>
 
-Within the `/settings` menu, you can select CMS Settings to change different settings related to how Sonoran Bot syncs with your CMS community. Within this menu, you can customize settings in the following categories:
+### Branding Removal
+
+CMS communities with [branding removal](https://docs.sonoransoftware.com/cms/pricing/pricing-faq/branding-removal) can customize the avatar, nickname, banner image, and bio!
+
+Once set in the CMS Discord settings panel, the changes can take up to five minutes to be reflected due to Discord rate limits.
 
 ### [Calendar Sync](../sonoran-cms-integration/calendar-event-sync.md) <a href="#calendarevents-settings" id="calendarevents-settings"></a>
 
@@ -82,4 +86,4 @@ This can also be toggled from CMS in `Admin` > `Integrations` > `Discord` > `Set
 
 Allows you to set or change the General logging channel and the Moderation logging channel.
 
-![SonoranBot - Set Logging Channel](../getting-started/settings/moderation/bot\_setloggingchannel.png)
+![SonoranBot - Set Logging Channel](../getting-started/settings/moderation/bot_setloggingchannel.png)
