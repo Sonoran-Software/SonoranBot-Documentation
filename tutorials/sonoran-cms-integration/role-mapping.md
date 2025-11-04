@@ -25,7 +25,7 @@ This mapping type is the most common.
 * CMS: `Admin` rank
 * Discord: `Admin` role in one or more Discord guilds
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (2) (1).png>)
 
 </details>
 
@@ -44,7 +44,7 @@ This mapping type is best used for role categories.
 * CMS: Multiple staff ranks `Moderator`, `Admin` and `Director`
 * Discord: A general `Staff` role
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/image (1) (1).png>)
 
 </details>
 
