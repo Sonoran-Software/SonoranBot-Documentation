@@ -12,4 +12,4 @@ It will automatically create ranks matching the name and color of your roles, th
 
 You can read more on importing Discord roles [here](https://info.sonorancms.com/tutorials/user-management/creating-departments#importing-ranks-from-discord-roles).
 
-![Sonoran CMS - Import Discord Roles as Ranks](../getting-started/sonoran-cms-integration/cms\_ranksimportdiscordpanel.png)
+![Sonoran CMS - Import Discord Roles as Ranks](../../.gitbook/assets/cms_ranksimportdiscordpanel.png)

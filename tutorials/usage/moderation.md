@@ -2,7 +2,6 @@
 title: Moderation
 published: true
 date: 2023-10-24T21:30:39.174Z
-tags: null
 editor: markdown
 dateCreated: 2023-08-19T00:08:06.914Z
 description: Learn more about SonoranBot's Discord moderation capabilities.
@@ -35,9 +34,9 @@ By default, all commands are set to what you expect:
 
 The `/warn` command is attached to Manage Guild by default like all other commands - you will want to give this command to certain roles as desired. This can be accomplished within Discord's Integrations settings (Desktop/Web only).
 
-![SonoranBot - Manage Integration](../getting-started/settings/moderation/bot\_discordmanageintegration.png)
+![SonoranBot - Manage Integration](../../.gitbook/assets/bot_discordmanageintegration.png)
 
-![SonoranBot - Warn Permission](../getting-started/settings/moderation/bot\_discordintegrationsettings.png)
+<img src="../../.gitbook/assets/bot_discordintegrationsettings.png" alt="SonoranBot - Warn Permission" width="563">
 
 Managing integration permissions is outside the scope of this guide, but Discord [has a guide](https://support.discord.com/hc/en-us/articles/4644915651095-Command-Permissions) of their own to walk you through the process. Chances are, you've already done this if you're using the CAD/CMS integrations.
 
@@ -47,22 +46,22 @@ When a command is used, a logging entry will be created depending on the action.
 
 ### Ban/Unban
 
-![SonoranBot - /Ban Command](../getting-started/settings/moderation/bot\_bancommand.png) ![SonoranBot - Ban Message](../getting-started/settings/moderation/bot\_banmessage.png)
+![SonoranBot - /Ban Command](../../.gitbook/assets/bot_bancommand.png) ![SonoranBot - Ban Message](../../.gitbook/assets/bot_banmessage.png)
 
 ***
 
 ### Kick
 
-![SonoranBot - /Kick Command](../getting-started/settings/moderation/bot\_kick.png) ![SonoranBot - Kick Message](../getting-started/community-management/moderation/bot\_kickedlog.png)
+![SonoranBot - /Kick Command](../../.gitbook/assets/bot_kick.png) ![SonoranBot - Kick Message](../../.gitbook/assets/bot_kickedlog.png)
 
 ***
 
 ### Mute/Unmute
 
-![SonoranBot - /Mute Command](../getting-started/settings/moderation/bot\_mute.png) ![SonoranBot - /Unmute Command](../getting-started/settings/moderation/bot\_unmute.png)
+![SonoranBot - /Mute Command](../../.gitbook/assets/bot_mute.png) ![SonoranBot - /Unmute Command](../../.gitbook/assets/bot_unmute.png)
 
 ***
 
 ### Warn
 
-![SonoranBot - /Warn Command](../getting-started/settings/moderation/bot\_warn.png) ![SonoranBot - /Warn Message](../getting-started/settings/moderation/bot\_warnlog.png)
+![SonoranBot - /Warn Command](../../.gitbook/assets/bot_warn.png) ![SonoranBot - /Warn Message](../../.gitbook/assets/bot_warnlog.png)

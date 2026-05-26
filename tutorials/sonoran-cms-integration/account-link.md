@@ -8,7 +8,7 @@ description: Learn how to link your Discord account to Sonoran CMS!
 
 Once the bot has been [added and linked to your CMS community](../getting-started.md), any users who do not yet have their Discord account linked will see the following banner:
 
-![Sonoran CMS - Link Discord Prompt](../getting-started/sonoran-cms-integration/Bot\_LinkDiscordCMS.png)
+![Sonoran CMS - Link Discord Prompt](../../.gitbook/assets/Bot_LinkDiscordCMS.png)
 
 They will be required to link their Discord account in order for the bot's features to work on them. This banner will show until they link their Discord to their Sonoran account.
 

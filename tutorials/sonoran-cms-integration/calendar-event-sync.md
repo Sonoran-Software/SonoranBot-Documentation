@@ -10,4 +10,4 @@ If you have linked SonoranBot to your community, creating an event in CMS will a
 
 By clicking the `Interested` button, you will be automatically RSVP'd in CMS.
 
-![Sonoran CMS Calendar Event in Discord](../getting-started/sonoran-cms-integration/cms\_calendareventdiscord.png)
+![Sonoran CMS Calendar Event in Discord](../../.gitbook/assets/cms_calendareventdiscord.png)

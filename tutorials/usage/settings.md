@@ -2,7 +2,6 @@
 title: Settings
 published: true
 date: 2023-10-26T19:11:28.315Z
-tags: null
 editor: markdown
 dateCreated: 2023-08-19T00:08:01.094Z
 description: Learn more about SonoranBot's different settings.
@@ -12,13 +11,13 @@ description: Learn more about SonoranBot's different settings.
 
 Running the command `/settings` allows you to manage many different aspects of how Sonoran Bot interacts with your Discord and CMS.
 
-![SonoranBot - /settings command](../getting-started/settings/bot_settings.png)
+<img src="../../.gitbook/assets/bot_settings.png" alt="SonoranBot - /settings command" width="234">
 
 ## API Settings <a href="#api-settings" id="api-settings"></a>
 
 Within the `/settings` menu, you can select API Settings, which will give you the options to change or delete the settings for your linked CAD and CMS communities.
 
-![SonoranBot - API Settings](../getting-started/settings/bot_apisettings.png)
+<img src="../../.gitbook/assets/bot_apisettings.png" alt="SonoranBot - API Settings" width="298">
 
 ## CMS Settings <a href="#cms-settings" id="cms-settings"></a>
 
@@ -86,4 +85,4 @@ This can also be toggled from CMS in `Admin` > `Integrations` > `Discord` > `Set
 
 Allows you to set or change the General logging channel and the Moderation logging channel.
 
-![SonoranBot - Set Logging Channel](../getting-started/settings/moderation/bot_setloggingchannel.png)
+![SonoranBot - Set Logging Channel](<../../.gitbook/assets/bot_setloggingchannel (1).png>)

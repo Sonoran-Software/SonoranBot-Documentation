@@ -4,7 +4,7 @@ description: Learn more about how Sonoran Bot syncs permissions with Discord.
 
 # Discord Sync Logic
 
-<figure><img src="../getting-started/sonoran-cad-integration/CMSxDiscord.webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMSxDiscord.webp" alt=""><figcaption></figcaption></figure>
 
 ## About
 
