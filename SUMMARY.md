@@ -13,6 +13,7 @@
   * [Discord Sync Logic](tutorials/sonoran-cms-integration/discord-sync-logic.md)
   * [Promotion Flows](tutorials/sonoran-cms-integration/promotion-flows.md)
 * [Sonoran CAD Integration](tutorials/sonoran-cad-integration.md)
+* [Sonoran Radio Integration](tutorials/sonoran-radio-integration.md)
 * [Usage](tutorials/usage/README.md)
   * [Settings](tutorials/usage/settings.md)
   * [Commands](tutorials/usage/commands.md)
