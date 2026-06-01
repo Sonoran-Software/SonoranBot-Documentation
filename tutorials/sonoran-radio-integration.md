@@ -98,7 +98,7 @@ The bot accepts spaces or commas between values, but the first value must always
 3. Click `Add Mapping`
 4. Enter the Radio permission integer, followed by any optional profile IDs
 
-<div><figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>selected Radio role view in <code>/rolemap</code></p></figcaption></figure> <figure><img src="https://cdn.discordapp.com/attachments/871554360285474847/1509283011722608682/image.png?ex=6a1b3fd7&#x26;is=6a19ee57&#x26;hm=c300df98776d45d5e4d7289acc4b5265a86c4eeab07352ab6ef874160a7187f2&#x26;" alt=""><figcaption><p>Radio mapping modal with permission integer and optional profile IDs</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>selected Radio role view in <code>/rolemap</code></p></figcaption></figure> <figure><img src="https://cdn.discordapp.com/attachments/871554360285474847/1509283011722608682/image.png?ex=6a1f3457&#x26;is=6a1de2d7&#x26;hm=f4fe4a1c9d0434151aedf6d0141cd0073e1dea769a86922073ce8348dfa4c41b&#x26;" alt=""><figcaption><p>Radio mapping modal with permission integer and optional profile IDs</p></figcaption></figure></div>
 
 #### Remove a mapping
 
