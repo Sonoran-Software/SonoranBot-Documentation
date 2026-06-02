@@ -74,7 +74,7 @@ If your community is in `CAD_RADIO` mode, the bot first asks whether you want to
 
 Select the Discord role you wish to map to specific Radio permissions. Enter the radio permission bit map from the previous step.
 
-<div><figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>Selected Radio role view in <code>/rolemap</code></p></figcaption></figure> <figure><img src="https://cdn.discordapp.com/attachments/871554360285474847/1509283011722608682/image.png?ex=6a1f3457&#x26;is=6a1de2d7&#x26;hm=f4fe4a1c9d0434151aedf6d0141cd0073e1dea769a86922073ce8348dfa4c41b&#x26;" alt=""><figcaption><p>Radio mapping modal with permission integer and optional profile IDs</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>Selected Radio role view in <code>/rolemap</code></p></figcaption></figure> <figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure></div>
 
 To delete an existing role mapping, edit it and enter `0` as the value.
 
