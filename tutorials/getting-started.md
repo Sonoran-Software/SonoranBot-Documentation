@@ -41,7 +41,7 @@ Next, the bot will ask you if you are using Sonoran CMS or if you wish to manage
 
 <div><figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure></div>
 
-Enter your community ID and API key for [Sonoran CAD](https://docs.sonoransoftware.com/cad/api-integration/getting-started/retrieving-your-credentials) and/or Sonoran Radio.
+Enter your community ID and API key for [Sonoran CAD](https://docs.sonoransoftware.com/cad/api-integration/getting-started/retrieving-your-credentials) and/or [Sonoran Radio](https://docs.sonoransoftware.com/radio/developer-documentation/developer-documentation/api-endpoints-v2/retrieving-your-credentials).
 
 If you are using [Sonoran CMS](https://sonorancms.com/) to manage your community, you only need to enter your [CMS community ID and API key](https://docs.sonoransoftware.com/cms/developer-api-documentation/api-integration/getting-started/retrieving-your-credentials). Sonoran CMS manages your [CAD](https://docs.sonoransoftware.com/cms/integration-capabilities/sonoran-cad-sync) and [Radio](https://docs.sonoransoftware.com/cms/integration-capabilities/sonoran-radio-sync) permissions inside the app with CMS user ranks.
 
