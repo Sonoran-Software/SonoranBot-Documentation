@@ -4,77 +4,96 @@ published: true
 date: 2024-02-06T23:21:26.656Z
 editor: markdown
 dateCreated: 2023-08-19T00:08:17.845Z
-description: >-
-  Link Sonoran Bot to Sonoran CAD to sync permissions to Discord roles and other
-  handy features!
+description: Sync Sonoran Radio permissions with Discord roles for easy management!
 ---
 
 # Sonoran CAD Integration
 
 ## Sync Discord Roles to CAD Permissions
 
-Easily manage Sonoran CAD permissions by syncing them with Discord roles.
+Sonoran Bot makes managing your Sonoran CAD permissions a breeze! Map specific permissions to Discord roles. Users with those Discord roles will be granted the assigned permissions.
 
-To sync Discord roles with CAD permissions you will need **either**:
+{% hint style="warning" %}
+Sonoran CAD role mapping is not available when Sonoran Bot is in CMS mode. Sonoran CMS manages your [CAD](https://docs.sonoransoftware.com/cms/integration-capabilities/sonoran-cad-sync) and [Radio](https://docs.sonoransoftware.com/cms/integration-capabilities/sonoran-radio-sync) permissions inside the app with CMS user ranks.
+{% endhint %}
 
-[Option 1](sonoran-cad-integration.md#id-1.-via-sonoran-cms): A **Free** community on Sonoran CAD and Sonoran CMS
+## Setup
 
-[Option 2](sonoran-cad-integration.md#cad-integration): A **Free** community on Sonoran CAD
-
-## 1. Via Sonoran CMS
+### 1. Invite the Bot and Link Your CAD
 
 <details>
 
-<summary>Role sync with Sonoran CMS</summary>
+<summary>Inviting and Linking Your CAD</summary>
 
-In addition to automatically adding users to your CAD when applications are accepted, [Sonoran CMS](https://info.sonorancms.com/why-choose-sonoran-cms/why-choose-sonoran-cms) can also manage your community's CAD and [Radio](https://info.sonorancms.com/integration-capabilities/sonoran-radio-sync) permissions!
+If you have not already, be sure to [invite the Discord bot and link your CAD community ID and API key](getting-started.md).
 
-1. [Add Sonoran Bot to your Discord](getting-started.md)
-2. [Map Discord Roles to CMS Ranks](sonoran-cms-integration/role-mapping.md)
-3. [Map CAD Permissions to CMS Ranks](https://info.sonorancms.com/integration-capabilities/sonoran-cad-sync)
+If you already have Sonoran Bot configured for another product, you can add the CAD community ID and API key in the `/settings` menu under **API Menu** > **Change CAD Setup**.
 
-<div><figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/image (13).png" alt="" width="237"><figcaption><p><code>/settings</code> -> <code>API Menu</code> -> <code>Change Radio Setup</code></p></figcaption></figure>
+
+After the Radio credentials are saved, the bot enables one of these sync modes automatically:
+
+* `RADIO` if only Radio is configured
+* `CAD_RADIO` if both CAD and Radio are configured
+* `CMS_BIDIR` if CMS is configured
+
+{% hint style="info" %}
+CMS takes priority over CAD and Radio sync. If CMS credentials are present, live role sync runs through the CMS path until CMS is removed from the community setup.
+{% endhint %}
+
+{% hint style="warning" %}
+CAD credentials are saved without setup-time validation. The first real validation usually happens when you open the CAD role mapping menu or run `/sync`.
+{% endhint %}
 
 </details>
 
-## 2. Via Sonoran CAD <a href="#cad-integration" id="cad-integration"></a>
+### 2. Configure Role Mapping
 
-### Setup Guide
+<details>
 
-{% embed url="https://www.youtube.com/watch?v=N-aO0pCfmRg" %}
+<summary>Configuring CAD Role Mapping</summary>
 
-### Permissions Synchronization
+Run `/rolemap` to configure how Discord roles translate into Sonoran CAD access.
 
-{% hint style="warning" %}
-Additionally, you must have the Manage Server permission on the Discord server in order to set up this process.
+If your community is in `CAD_RADIO` mode, the bot first asks whether you want to manage CAD mappings or Radio mappings. If your community is in `CAD` mode, the bot opens the CAD mapping menu directly.
+
+<div><figure><img src="../.gitbook/assets/image (10).png" alt="" width="229"><figcaption><p><code>/rolemap</code> product selector in <code>CAD_RADIO</code> mode</p></figcaption></figure> <img src="../.gitbook/assets/bot_cadrolemap01.png" alt="Sonoran Bot - CAD Role Mapping" width="235"></div>
+
+Select the Discord role you wish to map to specific CAD permissions. The embed will link you to a [permission bit map generator](https://sonoran-software.github.io/sonoranbot-perms). Toggle the specific CAD permissions and copy the code below.
+
+<div><img src="../.gitbook/assets/bot_cadrolemap02.png" alt="CAD Mapping: Role Select" width="298"> <img src="../.gitbook/assets/bot_cadrolemap03.png" alt="CAD Mapping: Bit Map Enter" width="219"> <figure><img src="../.gitbook/assets/image (17).png" alt="" width="375"><figcaption><p>CAD Permission Bit Map Generator</p></figcaption></figure></div>
+
+To delete an existing role mapping, edit it and enter `0` as the value.
+
+</details>
+
+### 4. Syncing Users
+
+<details>
+
+<summary>Syncing User Permissions</summary>
+
+In order for the bot to sync users in your CAD community, their Sonoran account must be linked to Discord. Users can run `/linkme` to link their Discord to their Sonoran Software account.
+
+{% hint style="info" %}
+User permissions are synced across all linked Discord guilds. If you have multiple Discord servers linked to the same Sonoran community, the bot gathers all of them and checks the member's roles across every linked server that the bot is in.
 {% endhint %}
 
-Using the `/rolemap` command, select the role you wish to map permissions to from the dropdown.
+**Automatic Sync**
 
-<img src="../.gitbook/assets/bot_cadrolemap01.png" alt="Sonoran Bot - CAD Role Mapping" width="235">
+Sonoran Bot will automatically sync and update Radio permissions on:
 
-Use the tool linked in the embed to generate a permission mapping number.
+* Discord role changes
+* Members exiting the Discord guild
+* Members being banned from the Discord guild
 
-<img src="../.gitbook/assets/bot_cadrolemap02.png" alt="Sonoran Bot - CAD Role Mapping" width="298">
+**Manual Sync**
 
-Clicking **Set Mapping** will present an option to specify a code (generated using the linked tool) or an existing permission key. Enter "0" as the permission mask to delete the current mapping instead.
+Users can run `/sync` to force a manual permission sync.
 
-<img src="../.gitbook/assets/bot_cadrolemap03.png" alt="Sonoran Bot - CAD Role Mapping" width="219">
+Administrators can force a community-wide sync by running `/sync community: yes`
 
-Successfully entering this information will bring you back to the main role mapping screen with the new permission set.
-
-<img src="../.gitbook/assets/bot_cadrolemap04.png" alt="Sonoran Bot - CAD Role Mapping" width="239">
-
-### User Setup
-
-1. Every user in the Discord will get their [Secret ID from their Settings page](https://info.sonorancad.com/sonoran-cad/api-integration/getting-started/account-secret-id).
-2. Every user in the Discord will then use `/linkme` to link their Discord to their Sonoran Software account.
-3. Community members can use the `/sync` command in Discord to force a permissions sync.
-4. Communities should **no longer use public permission keys in the CAD**, as the bot will automatically remove CAD permissions from users if they don't have a Discord role for it.
-
-Whenever a role is added or removed, the bot will automatically update the user's permissions to match.
-
-If the user ever leaves the server, the bot will immediately remove all permissions from their account, although they will still be in the community.
+</details>
 
 ### Best Practices and FAQ
 
