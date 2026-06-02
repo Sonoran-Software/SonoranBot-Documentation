@@ -2,7 +2,6 @@
 title: 👋 Sonoran Bot
 published: true
 date: 2023-09-27T19:28:36.686Z
-tags: null
 editor: markdown
 dateCreated: 2023-08-18T23:41:14.463Z
 description: >-
@@ -14,7 +13,7 @@ description: >-
 
 ### What is Sonoran Bot?
 
-Sonoran Bot is a fully featured Discord bot providing integration tools with our other software, Sonoran CAD and Sonoran CMS. It can also provide some community management tools with more features being added frequently!
+Sonoran Bot is a fully featured Discord bot providing integration tools with our other software, Sonoran CAD, Sonoran Radio and Sonoran CMS. It also provides general community management tools!
 
 ### Get Started
 
