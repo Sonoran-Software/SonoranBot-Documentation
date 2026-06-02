@@ -4,7 +4,7 @@ description: Learn more about how Sonoran Bot syncs permissions with Discord.
 
 # Discord Sync Logic
 
-<figure><img src="../../.gitbook/assets/CMSxDiscord.webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CMSxDiscord.webp" alt=""><figcaption></figcaption></figure>
 
 ## About
 
@@ -54,7 +54,7 @@ When a user is banned in the CMS community:
 * CMS removes all ranks for the user
 * CMS informs the bot of a user ban
 * Bot removes all associated "mapped" Discord roles
-* If [ban sync](../usage/settings.md#ban-sync) is enabled, bot will ban user in any remaining guilds
+* If [ban sync](../../usage/settings.md#ban-sync) is enabled, bot will ban user in any remaining guilds
 
 ## Discord -> CMS Events
 
@@ -69,7 +69,7 @@ When an account joins a Discord Guild:
 
 When an account leaves a Discord Guild:
 
-* If [kick on leave](../usage/settings.md#toggle-kick-on-leave) is enabled
+* If [kick on leave](../../usage/settings.md#toggle-kick-on-leave) is enabled
   * The user will be kicked from the CMS
   * The user will be kicked from any remaining Discord Guilds
 * Bot checks for remaining "mapped" roles in any other linked Discord Guilds
@@ -107,7 +107,7 @@ _A manual sync will never result in any role or rank removal. It will only "comp
 
 When a user is kicked from a Discord Guild:
 
-* If [kick on leave](../usage/settings.md#toggle-kick-on-leave) is enabled
+* If [kick on leave](../../usage/settings.md#toggle-kick-on-leave) is enabled
   * The user will be kicked from the CMS
   * The user will be kicked from any remaining Discord Guilds
 * Bot checks for remaining "mapped" roles in any other linked Discord Guilds
@@ -118,7 +118,7 @@ When a user is kicked from a Discord Guild:
 
 When a user is banned from a Discord Guild:
 
-* If [ban sync](../usage/settings.md#ban-sync) is enabled
+* If [ban sync](../../usage/settings.md#ban-sync) is enabled
   * The user will be banned from the CMS
   * The user will be banned in any remaining Discord Guilds
 * Bot checks for remaining "mapped" roles in any other linked Discord Guilds

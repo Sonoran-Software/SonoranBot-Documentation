@@ -6,6 +6,8 @@ description: Learn how to link your Discord account to Sonoran CMS!
 
 ## **Link your Discord Account**
 
+### 1. Via CMS
+
 Once the bot has been [added and linked to your CMS community](../getting-started.md), any users who do not yet have their Discord account linked will see the following banner:
 
 ![Sonoran CMS - Link Discord Prompt](../../.gitbook/assets/Bot_LinkDiscordCMS.png)
@@ -14,6 +16,6 @@ They will be required to link their Discord account in order for the bot's featu
 
 Select `Link Discord` to sign into your Discord account and authorize Sonoran CMS.
 
-{% hint style="info" %}
-Unlike the CAD sync mode, users will not use the `/linkme` command - this is handled automatically within the Sonoran Account SSO.
-{% endhint %}
+### 2. Via Command
+
+Users can also run the `/linkme` command in Discord to link their Sonoran Software account.

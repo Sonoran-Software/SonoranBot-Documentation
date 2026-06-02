@@ -6,10 +6,10 @@ description: Quickly configure CMS ranks by importing your existing Discord role
 
 ## Import Discord Roles as CMS Ranks <a href="#import-roles-cms" id="import-roles-cms"></a>
 
-For any Discord guild linked to your CMS, you can choose to import specific roles as ranks into any CMS department.
+Importing Discord roles to the CMS allows you to quickly create CMS ranks from your existing Discord roles.
 
-It will automatically create ranks matching the name and color of your roles, though in depth permission customization will still have to be done as normal.
+Access the **Rank Manager** in the **Administration** panel under **Ranks**. Select the **Discord** import button > **Select Guild** > toggle the specific Discord roles you wish to import. Once imported, a CMS rank will be created for every selected Discord role with a matching name, color, and icon.
 
-You can read more on importing Discord roles [here](https://info.sonorancms.com/tutorials/user-management/creating-departments#importing-ranks-from-discord-roles).
+Additionally, toggling the optional **Also create one-to-one Discord role mapping(s)** to create one-to-one mappings for every imported role. This will [sync the CMS ranks to the Discord roles for all users](role-mapping/).
 
-![Sonoran CMS - Import Discord Roles as Ranks](../../.gitbook/assets/cms_ranksimportdiscordpanel.png)
+<div><figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure></div>
