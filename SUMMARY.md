@@ -18,3 +18,7 @@
   * [Settings](tutorials/usage/settings.md)
   * [Commands](tutorials/usage/commands.md)
   * [Moderation](tutorials/usage/moderation.md)
+
+## Other
+
+* [Privacy Policy](https://docs.sonoransoftware.com/policy/policy/privacy-policy)
